@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "2qO-zf-OIb"; */
+"2qO-zf-OIb.normalTitle" = "SMS code";
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "7xH-vY-HNN"; */
+"7xH-vY-HNN.placeholder" = "Set Password";
+
+/* Class = "UITextField"; placeholder = "输入邀请码 (必填)"; ObjectID = "9FT-fU-Fae"; */
+"9FT-fU-Fae.placeholder" = "Please enter Referral code.";
+
+/* Class = "UILabel"; text = "验证码已发送至 stella.ham@8mail.com"; ObjectID = "C7p-I7-rW5"; */
+"C7p-I7-rW5.text" = "SMS code sent stella.ham@8mail.com";
+
+/* Class = "UIButton"; normalTitle = "找回密码"; ObjectID = "D9I-Ar-Yjy"; */
+"D9I-Ar-Yjy.normalTitle" = "Forgot password";
+
+/* Class = "UITextField"; placeholder = "请再次填写新支付密码"; ObjectID = "F9Q-D0-GFp"; */
+"F9Q-D0-GFp.placeholder" = "Please re-enter security password";
+
+/* Class = "UIButton"; normalTitle = "切换到邮箱注册"; ObjectID = "HLr-Ai-5n0"; */
+"HLr-Ai-5n0.normalTitle" = "switch to email registration";
+
+/* Class = "UITextField"; placeholder = "请填写手机号码"; ObjectID = "HgX-ye-1WL"; */
+"HgX-ye-1WL.placeholder" = "Please enter your phone number";
+
+/* Class = "UITextField"; placeholder = "请再次填写新密码"; ObjectID = "IIh-TE-DXO"; */
+"IIh-TE-DXO.placeholder" = "Please re-enter new password";
+
+/* Class = "UITextField"; placeholder = "请填写新支付密码"; ObjectID = "IuY-nF-NVO"; */
+"IuY-nF-NVO.placeholder" = "Please enter new security password ";
+
+/* Class = "UITextField"; placeholder = "请填写新密码"; ObjectID = "M7U-Kd-DoE"; */
+"M7U-Kd-DoE.placeholder" = "Please enter new password";
+
+/* Class = "UITextField"; placeholder = "请填写验证码"; ObjectID = "Rzh-rZ-Ygi"; */
+"Rzh-rZ-Ygi.placeholder" = "Please enter your SMS code";
+
+/* Class = "UIButton"; normalTitle = "中国 +86"; ObjectID = "SPA-D6-wnF"; */
+"SPA-D6-wnF.normalTitle" = "Chinese +86";
+
+/* Class = "UILabel"; text = "X-WALLET登录"; ObjectID = "TVe-wc-aNK"; */
+"TVe-wc-aNK.text" = "X-WALLET login";
+
+/* Class = "UIButton"; normalTitle = "切换语言"; ObjectID = "UFq-PE-qBr"; */
+"UFq-PE-qBr.normalTitle" = "languages";
+
+/* Class = "UILabel"; text = "8-20个字符（字母，数字和符号的组合），字母必须同时包含大写和小写字母"; ObjectID = "UxB-fD-dhm"; */
+"UxB-fD-dhm.text" = "Please use 8-20 characters, can be formed by Chinese and English characters, and numbers.";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "WsP-Qy-FEo"; */
+"WsP-Qy-FEo.normalTitle" = "SMS code";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "ZJX-CN-8py"; */
+"ZJX-CN-8py.normalTitle" = "cancel";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "a1M-1X-qvJ"; */
+"a1M-1X-qvJ.normalTitle" = "Next";
+
+/* Class = "UIButton"; normalTitle = "还没有账号？ 注册"; ObjectID = "bRQ-BC-ak5"; */
+"bRQ-BC-ak5.normalTitle" = "No account yet ? Register.";
+
+/* Class = "UIButton"; normalTitle = "忘记密码？"; ObjectID = "cFC-86-Wh2"; */
+"cFC-86-Wh2.normalTitle" = "Forgot password?";
+
+/* Class = "UIButton"; normalTitle = "已有账号？ 登录"; ObjectID = "cty-bh-3cd"; */
+"cty-bh-3cd.normalTitle" = "Have an account？ Login";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "dEd-Fm-qRE"; */
+"dEd-Fm-qRE.placeholder" = "Please enter account";
+
+/* Class = "UIButton"; normalTitle = "我确认无法更改邀请码"; ObjectID = "dqT-1x-YrS"; */
+"dqT-1x-YrS.normalTitle" = "Referral code cant't be changed.";
+
+/* Class = "UILabel"; text = "设置登录密码"; ObjectID = "eIl-p7-fbc"; */
+"eIl-p7-fbc.text" = "Set Login Password";
+
+/* Class = "UIButton"; normalTitle = "没收到验证码？重新发送"; ObjectID = "eMY-kD-Ha2"; */
+"eMY-kD-Ha2.normalTitle" = "No SMS code？resent";
+
+/* Class = "UILabel"; text = "手机注册"; ObjectID = "j4P-1E-4hE"; */
+"j4P-1E-4hE.text" = "Phone Registration";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "jRW-Vo-riy"; */
+"jRW-Vo-riy.text" = "Forgot password";
+
+/* Class = "UITextField"; placeholder = "请填写密码"; ObjectID = "mS3-KC-2HC"; */
+"mS3-KC-2HC.placeholder" = "Please enter password";
+
+/* Class = "UITextField"; placeholder = "请填写手机号码或邮箱"; ObjectID = "pBO-nv-9aU"; */
+"pBO-nv-9aU.placeholder" = "Please enter phone or email";
+
+/* Class = "UITextField"; placeholder = "再次输入"; ObjectID = "tme-Rr-eaH"; */
+"tme-Rr-eaH.placeholder" = "enter again";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "uH3-al-oqt"; */
+"uH3-al-oqt.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "输入验证码"; ObjectID = "vLU-dN-Gqa"; */
+"vLU-dN-Gqa.text" = "SMS code";
+
+/* Class = "UITextField"; placeholder = "请填写验证码"; ObjectID = "xOg-ED-DR0"; */
+"xOg-ED-DR0.placeholder" = "SMS code";
+
+/* Class = "UIButton"; normalTitle = "切换到邮箱"; ObjectID = "xYD-6U-93l"; */
+"xYD-6U-93l.normalTitle" = "switch to email";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "xwP-Kx-cTk"; */
+"xwP-Kx-cTk.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "中国 +86"; ObjectID = "xxB-bn-Shz"; */
+"xxB-bn-Shz.normalTitle" = "China +86";

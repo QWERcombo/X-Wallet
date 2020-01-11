@@ -1,0 +1,1 @@
+../../../IXColor/IXColor/UIKit/UISlider+Color.h

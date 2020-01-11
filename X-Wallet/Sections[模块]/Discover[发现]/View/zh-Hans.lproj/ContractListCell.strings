@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "九十天配套 (90天)"; ObjectID = "FmE-cA-fuk"; */
+"FmE-cA-fuk.text" = "九十天配套 (90天)";
+
+/* Class = "UILabel"; text = "总数量"; ObjectID = "GOT-nk-ITg"; */
+"GOT-nk-ITg.text" = "总数量";
+
+/* Class = "UILabel"; text = "结束时间"; ObjectID = "J0P-Ba-M7r"; */
+"J0P-Ba-M7r.text" = "结束时间";
+
+/* Class = "UILabel"; text = "开始时间"; ObjectID = "Kjl-31-mRU"; */
+"Kjl-31-mRU.text" = "开始时间";
+
+/* Class = "UILabel"; text = "=10.00XCN"; ObjectID = "MAb-w7-x8R"; */
+"MAb-w7-x8R.text" = "=10.00XCN";
+
+/* Class = "UIButton"; normalTitle = "收益中"; ObjectID = "a9g-Ig-m1J"; */
+"a9g-Ig-m1J.normalTitle" = "收益中";
+
+/* Class = "UILabel"; text = "2019/11/11 11 11 11"; ObjectID = "bfb-6i-UHk"; */
+"bfb-6i-UHk.text" = "2019/11/11 11 11 11";
+
+/* Class = "UILabel"; text = "总收益"; ObjectID = "fG4-RZ-k0b"; */
+"fG4-RZ-k0b.text" = "总收益";
+
+/* Class = "UILabel"; text = "10.00ETH($0)"; ObjectID = "maK-43-hYJ"; */
+"maK-43-hYJ.text" = "10.00ETH($0)";
+
+/* Class = "UILabel"; text = "2019/11/11 11"; ObjectID = "nja-I1-28o"; */
+"nja-I1-28o.text" = "2019/11/11 11";

@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "AQ0-gG-VqM"; */
+"AQ0-gG-VqM.normalTitle" = "취소";
+
+/* Class = "UILabel"; text = "夜间模式"; ObjectID = "OfF-nl-6yY"; */
+"OfF-nl-6yY.text" = "야간 모드";
+
+/* Class = "UILabel"; text = "圣诞模式"; ObjectID = "UXA-Dw-IHw"; */
+"UXA-Dw-IHw.text" = "크리스마스 모드";
+
+/* Class = "UILabel"; text = "确认更换？"; ObjectID = "Xdq-gd-MtC"; */
+"Xdq-gd-MtC.text" = "교환 확인?";
+
+/* Class = "UILabel"; text = "选择您的主题"; ObjectID = "Xs6-Id-KWf"; */
+"Xs6-Id-KWf.text" = "테마 선택";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "aQw-3D-hBX"; */
+"aQw-3D-hBX.normalTitle" = "확인";
+
+/* Class = "UILabel"; text = "日间模式"; ObjectID = "sqA-2S-mW6"; */
+"sqA-2S-mW6.text" = "주간 모델";
+
+/* Class = "UILabel"; text = "新年模式"; ObjectID = "3RA-aE-tgq"; */
+"sqA-2S-mW6.text" = "새해 모델";

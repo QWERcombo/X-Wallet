@@ -1,0 +1,191 @@
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "0Lc-8w-rbC"; */
+"0Lc-8w-rbC.normalTitle" = "모든";
+
+/* Class = "UILabel"; text = "设置头像"; ObjectID = "1gt-Ix-yuX"; */
+"1gt-Ix-yuX.text" = "아바타 설정";
+
+/* Class = "UILabel"; text = "UID"; ObjectID = "2R4-hZ-M5l"; */
+"2R4-hZ-M5l.text" = "UID";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "2az-ID-pD1"; */
+"2az-ID-pD1.normalTitle" = "전송";
+
+/* Class = "UILabel"; text = "语言"; ObjectID = "3SF-bg-4Jo"; */
+"3SF-bg-4Jo.text" = "언어";
+
+/* Class = "UITextField"; placeholder = "请输入原安全密码"; ObjectID = "5Vk-fD-WAG"; */
+"5Vk-fD-WAG.placeholder" = "원본 보안 암호를 입력하십시오.";
+
+/* Class = "UILabel"; text = "服务协议与隐私条款"; ObjectID = "6I0-au-LzM"; */
+"6I0-au-LzM.text" = "개인정보취급방침";
+
+/* Class = "UIButton"; normalTitle = "邀请好友"; ObjectID = "6Qt-fT-Z7w"; */
+"6Qt-fT-Z7w.normalTitle" = "친구 초대";
+/* Class = "UILabel"; text = "邀请好友"; ObjectID = "QXI-RX-AI2"; */
+"QXI-RX-AI2.text" = "친구 초대";
+
+/* Class = "UILabel"; text = "复制邀请码"; ObjectID = "Z9R-0Q-SUB"; */
+"Z9R-0Q-SUB.text" = "초대 코드";
+
+/* Class = "UILabel"; text = "我的订单"; ObjectID = "6ce-Cr-7ac"; */
+"6ce-Cr-7ac.text" = "내 주문";
+
+/* Class = "UILabel"; text = "扫描二维码注册并下载应用"; ObjectID = "9Vp-Ut-asX"; */
+"9Vp-Ut-asX.text" = "스캔 QR 코드 등록 및 다운로드 응용 프로그램";
+
+/* Class = "UILabel"; text = "圣诞"; ObjectID = "9sB-eV-GKX"; */
+"9sB-eV-GKX.text" = "크리스마스";
+
+/* Class = "UILabel"; text = "收益明细"; ObjectID = "AWf-vQ-O3e"; */
+"AWf-vQ-O3e.text" = "실적 분석";
+
+/* Class = "UILabel"; text = "分享朋友圈"; ObjectID = "CA9-xV-nf1"; */
+"CA9-xV-nf1.text" = "공유Moments";
+
+/* Class = "UIButton"; normalTitle = "任务"; ObjectID = "Ess-cd-cp5"; */
+"Ess-cd-cp5.normalTitle" = "작업";
+
+/* Class = "UILabel"; text = "简体中文"; ObjectID = "Eyk-cF-IBd"; */
+"Eyk-cF-IBd.text" = "中文";
+
+/* Class = "UILabel"; text = "请设置2-25个字符，可由中英文、数字组成"; ObjectID = "Fz0-IP-lxF"; */
+"Fz0-IP-lxF.text" = "알파 숫자 암호를 입력하십시오.";
+
+/* Class = "UILabel"; text = "11111"; ObjectID = "IPW-Jz-wVV"; */
+"IPW-Jz-wVV.text" = "11111";
+
+/* Class = "UILabel"; text = "我的反馈"; ObjectID = "Ken-i9-2Tn"; */
+"Ken-i9-2Tn.text" = "피드백";
+
+/* Class = "UILabel"; text = "176****7264"; ObjectID = "Lxl-cb-ihU"; */
+"Lxl-cb-ihU.text" = "176****7264";
+
+/* Class = "UILabel"; text = "团队总人数"; ObjectID = "Mvn-5U-biW"; */
+"Mvn-5U-biW.text" = "팀 구성원";
+
+/* Class = "UILabel"; text = "原安全密码"; ObjectID = "N6C-rl-3C2"; */
+"N6C-rl-3C2.text" = "원래 보안 암호";
+
+/* Class = "UILabel"; text = "邀请码："; ObjectID = "QxD-Gs-T5x"; */
+"QxD-Gs-T5x.text" = "초대 코드：";
+
+/* Class = "UILabel"; text = "初级节点"; ObjectID = "Tj9-te-iy1"; */
+"Tj9-te-iy1.text" = "기본 노드";
+
+/* Class = "UIButton"; normalTitle = "团队"; ObjectID = "UDj-ON-Z9G"; */
+"UDj-ON-Z9G.normalTitle" = "팀";
+
+/* Class = "UIButton"; normalTitle = "直推人数"; ObjectID = "UVt-rJ-LYn"; */
+"UVt-rJ-LYn.normalTitle" = "추천";
+
+/* Class = "UILabel"; text = "复制链接"; ObjectID = "Ugu-OJ-S0a"; */
+"Ugu-OJ-S0a.text" = "링크 복사";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VJJ-rr-he9"; */
+"VJJ-rr-he9.text" = "Label";
+
+/* Class = "UILabel"; text = "总收益"; ObjectID = "VLq-Cn-MhO"; */
+"VLq-Cn-MhO.text" = "총 수익";
+
+/* Class = "UIButton"; normalTitle = "待收货"; ObjectID = "WsB-MU-0Oj"; */
+"WsB-MU-0Oj.normalTitle" = "보류 중인 영수증";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "aGt-mM-hjp"; */
+"aGt-mM-hjp.normalTitle" = "인증 코드 받기";
+
+/* Class = "UILabel"; text = "常见问题"; ObjectID = "bVx-8b-AtT"; */
+"bVx-8b-AtT.text" = "자주 묻는 질문(FAQ)";
+
+/* Class = "UIButton"; normalTitle = "团队人数"; ObjectID = "drq-64-3CU"; */
+"drq-64-3CU.normalTitle" = "팀 멤버";
+
+/* Class = "UILabel"; text = "保存图片"; ObjectID = "fcm-hL-0JW"; */
+"fcm-hL-0JW.text" = "그림 저장";
+
+/* Class = "UILabel"; text = "添加图片（最多添加三张，可不添加）"; ObjectID = "feQ-ie-wiT"; */
+"feQ-ie-wiT.text" = "사진 추가(최대 3개, 아님)";
+
+/* Class = "UILabel"; text = "版本号"; ObjectID = "gxe-0R-OVt"; */
+"gxe-0R-OVt.text" = "버전";
+
+/* Class = "UILabel"; text = "1.0.0"; ObjectID = "h3a-Wp-NLM"; */
+"h3a-Wp-NLM.text" = "1.0.0";
+
+/* Class = "UITextField"; placeholder = "请输入标题"; ObjectID = "jgg-9f-yRE"; */
+"jgg-9f-yRE.placeholder" = "제목 입력";
+
+/* Class = "UITextField"; placeholder = "请设置新安全密码"; ObjectID = "jn2-Pm-zIY"; */
+"jn2-Pm-zIY.placeholder" = "새 보안 암호를 설정하십시오.";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "kef-5f-Tnh"; */
+"kef-5f-Tnh.placeholder" = "확인 코드를 입력하십시오.";
+
+/* Class = "UILabel"; text = "1111"; ObjectID = "l67-nB-9RY"; */
+"l67-nB-9RY.text" = "1111";
+
+/* Class = "UILabel"; text = "我的主题"; ObjectID = "lDY-F8-odC"; */
+"lDY-F8-odC.text" = "테마";
+
+/* Class = "UILabel"; text = "扫描二维码，下载客户端"; ObjectID = "m8y-cV-zvh"; */
+"m8y-cV-zvh.text" = "스캔하여 다운로드";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mds-5Z-sFX"; */
+"mds-5Z-sFX.text" = "Label";
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "ndl-ti-uzg"; */
+"ndl-ti-uzg.text" = "별명";
+
+/* Class = "UILabel"; text = "修改安全密码"; ObjectID = "ngU-x9-Gad"; */
+"ngU-x9-Gad.text" = "보안 암호 변경";
+
+/* Class = "UILabel"; text = "验证码"; ObjectID = "oUa-MY-3Vb"; */
+"oUa-MY-3Vb.text" = "확인 코드";
+
+/* Class = "UIButton"; normalTitle = "代付款"; ObjectID = "od2-F2-4IO"; */
+"od2-F2-4IO.normalTitle" = "지불을 대신하여";
+
+/* Class = "UITextField"; placeholder = "请输入昵称"; ObjectID = "odp-Xh-M0h"; */
+"odp-Xh-M0h.placeholder" = "닉네임 입력하세요";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "pQL-U9-fWb"; */
+"pQL-U9-fWb.normalTitle" = "전송";
+
+/* Class = "UILabel"; text = "ID:15841d"; ObjectID = "qon-DO-Sg2"; */
+"qon-DO-Sg2.text" = "ID:15841d";
+
+/* Class = "UILabel"; text = "今日收益"; ObjectID = "rmM-Ca-iQg"; */
+"rmM-Ca-iQg.text" = "오늘의 실적";
+
+/* Class = "UILabel"; text = "请输入反馈信息，我们将及时进行改进。"; ObjectID = "rw4-3t-kIy"; */
+"rw4-3t-kIy.text" = "피드백을 입력하고 우리는 적시에 개선 할 것입니다.";
+
+/* Class = "UILabel"; text = "新安全密码"; ObjectID = "sBS-SD-Q3R"; */
+"sBS-SD-Q3R.text" = "새 보안 암호";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sbM-mf-H4N"; */
+"sbM-mf-H4N.text" = "Label";
+
+/* Class = "UILabel"; text = "团队总有效人数"; ObjectID = "sgL-nU-gxD"; */
+"sgL-nU-gxD.text" = "활성 팀의 총 수";
+
+/* Class = "UIButton"; normalTitle = "待发货"; ObjectID = "tFv-j8-agM"; */
+"tFv-j8-agM.normalTitle" = "발송 예정";
+
+/* Class = "UILabel"; text = "http://www.baidu.com"; ObjectID = "tfF-3f-cKg"; */
+"tfF-3f-cKg.text" = "http://www.baidu.com";
+
+/* Class = "UILabel"; text = "标题"; ObjectID = "yRC-Gm-YBf"; */
+"yRC-Gm-YBf.text" = "제목";
+
+/* Class = "UILabel"; text = "关于我们"; ObjectID = "yja-Nh-JhO"; */
+"yja-Nh-JhO.text" = "우리에 관해서";
+
+/* Class = "UILabel"; text = "收益明细"; ObjectID = "ylc-dV-jvf"; */
+"ylc-dV-jvf.text" = "실적 분석";
+
+/* Class = "UILabel"; text = "好友邀请"; ObjectID = "ymj-a0-IM8"; */
+"ymj-a0-IM8.text" = "친구 초대장";
+
+/* Class = "UIButton"; normalTitle = "保存并使用"; ObjectID = "zku-zZ-4pK"; */
+"zku-zZ-4pK.normalTitle" = "저장 및 사용";

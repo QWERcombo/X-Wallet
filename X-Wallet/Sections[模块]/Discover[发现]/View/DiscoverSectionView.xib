@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiscoverSectionView" id="U6b-Vx-4bR" customClass="DiscoverSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNV-38-5xR">
+                    <rect key="frame" x="15" y="35" width="6" height="18"/>
+                    <color key="backgroundColor" red="0.37254901959999998" green="0.24313725489999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="028-U7-pVq"/>
+                        <constraint firstAttribute="width" constant="6" id="DLX-Kk-YFZ"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbE-aG-Lm8">
+                    <rect key="frame" x="31" y="33.5" width="46" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="con_0" translatesAutoresizingMaskIntoConstraints="NO" id="8ft-0W-3um">
+                    <rect key="frame" x="72" y="9" width="19" height="42.5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="bbE-aG-Lm8" firstAttribute="centerY" secondItem="DNV-38-5xR" secondAttribute="centerY" id="919-QK-59d"/>
+                <constraint firstItem="8ft-0W-3um" firstAttribute="bottom" secondItem="bbE-aG-Lm8" secondAttribute="bottom" constant="-3" id="Jqb-7a-Afh"/>
+                <constraint firstItem="bbE-aG-Lm8" firstAttribute="leading" secondItem="DNV-38-5xR" secondAttribute="trailing" constant="10" id="KY9-8p-pjz"/>
+                <constraint firstItem="8ft-0W-3um" firstAttribute="leading" secondItem="bbE-aG-Lm8" secondAttribute="trailing" constant="-5" id="TG6-Ot-6cg"/>
+                <constraint firstItem="DNV-38-5xR" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="35" id="d4M-KU-XJS"/>
+                <constraint firstItem="DNV-38-5xR" firstAttribute="leading" secondItem="9Gg-ye-v9C" secondAttribute="leading" constant="15" id="skf-Qh-WiJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="9Gg-ye-v9C"/>
+            <connections>
+                <outlet property="iconImg" destination="8ft-0W-3um" id="YRr-aE-H2K"/>
+                <outlet property="titleLab" destination="bbE-aG-Lm8" id="WZ8-1d-aFl"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="84"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="con_0" width="19" height="42.5"/>
+    </resources>
+</document>

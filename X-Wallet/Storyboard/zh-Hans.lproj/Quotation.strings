@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "利"; ObjectID = "0Vp-ch-7Pz"; */
+"0Vp-ch-7Pz.text" = "利";
+
+/* Class = "UILabel"; text = "所属平台"; ObjectID = "255-G6-acR"; */
+"255-G6-acR.text" = "所属平台";
+
+/* Class = "UILabel"; text = "21441.001"; ObjectID = "2oN-Bd-YGC"; */
+"2oN-Bd-YGC.text" = "21441.001";
+
+/* Class = "UILabel"; text = "21.41"; ObjectID = "8ZG-at-ttH"; */
+"8ZG-at-ttH.text" = "21.41";
+
+/* Class = "UILabel"; text = "最低价格"; ObjectID = "Hvb-WI-9Zb"; */
+"Hvb-WI-9Zb.text" = "最低价格";
+
+/* Class = "UILabel"; text = "最新价"; ObjectID = "KQE-XP-grx"; */
+"KQE-XP-grx.text" = "最新价";
+
+/* Class = "UILabel"; text = "所属平台"; ObjectID = "R92-Tm-P7d"; */
+"R92-Tm-P7d.text" = "所属平台";
+
+/* Class = "UILabel"; text = "BITFINEX"; ObjectID = "VOk-ff-FxM"; */
+"VOk-ff-FxM.text" = "BITFINEX";
+
+/* Class = "UILabel"; text = "BITFINEX"; ObjectID = "WdD-WP-WFn"; */
+"WdD-WP-WFn.text" = "BITFINEX";
+
+/* Class = "UILabel"; text = "21441.001"; ObjectID = "Y82-9L-wnq"; */
+"Y82-9L-wnq.text" = "21441.001";
+
+/* Class = "UILabel"; text = "行情"; ObjectID = "Z2Y-lU-NnG"; */
+"Z2Y-lU-NnG.text" = "行情";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aMz-Bz-dqp"; */
+"aMz-Bz-dqp.text" = "Label";
+
+/* Class = "UILabel"; text = "平台"; ObjectID = "d61-Ws-Giy"; */
+"d61-Ws-Giy.text" = "平台";
+
+/* Class = "UILabel"; text = "涨跌幅"; ObjectID = "mVr-c9-Ywr"; */
+"mVr-c9-Ywr.text" = "涨跌幅";
+
+/* Class = "UILabel"; text = "最大成交差价："; ObjectID = "xfK-kf-Sjj"; */
+"xfK-kf-Sjj.text" = "最大成交差价：";
+
+/* Class = "UILabel"; text = "最高价格"; ObjectID = "zMs-fe-INp"; */
+"zMs-fe-INp.text" = "最高价格";

@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "2qO-zf-OIb"; */
+"2qO-zf-OIb.normalTitle" = "인증 코드 받기";
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "7xH-vY-HNN"; */
+"7xH-vY-HNN.placeholder" = "암호 설정";
+
+/* Class = "UITextField"; placeholder = "输入邀请码 (必填)"; ObjectID = "9FT-fU-Fae"; */
+"9FT-fU-Fae.placeholder" = "초대 코드  입력(필수) ";
+
+/* Class = "UILabel"; text = "验证码已发送至 stella.ham@8mail.com"; ObjectID = "C7p-I7-rW5"; */
+"C7p-I7-rW5.text" = "확인 코드가stella.ham@8mail.com";
+
+/* Class = "UIButton"; normalTitle = "找回密码"; ObjectID = "D9I-Ar-Yjy"; */
+"D9I-Ar-Yjy.normalTitle" = "비밀번호 찾기";
+
+/* Class = "UITextField"; placeholder = "请再次填写新支付密码"; ObjectID = "F9Q-D0-GFp"; */
+"F9Q-D0-GFp.placeholder" = "새 결제 비밀번호를 다시 입력하십시오.";
+
+/* Class = "UIButton"; normalTitle = "切换到邮箱注册"; ObjectID = "HLr-Ai-5n0"; */
+"HLr-Ai-5n0.normalTitle" = "이메일 등록으로 전환";
+
+/* Class = "UITextField"; placeholder = "请填写手机号码"; ObjectID = "HgX-ye-1WL"; */
+"HgX-ye-1WL.placeholder" = "휴대폰 번호를 입력하십시오.";
+
+/* Class = "UITextField"; placeholder = "请再次填写新密码"; ObjectID = "IIh-TE-DXO"; */
+"IIh-TE-DXO.placeholder" = "새 암호를 다시 입력하십시오.";
+
+/* Class = "UITextField"; placeholder = "请填写新支付密码"; ObjectID = "IuY-nF-NVO"; */
+"IuY-nF-NVO.placeholder" = "새 결제 비밀번호를 입력하십시오.";
+
+/* Class = "UITextField"; placeholder = "请填写新密码"; ObjectID = "M7U-Kd-DoE"; */
+"M7U-Kd-DoE.placeholder" = "새 암호를 입력하십시오.";
+
+/* Class = "UITextField"; placeholder = "请填写验证码"; ObjectID = "Rzh-rZ-Ygi"; */
+"Rzh-rZ-Ygi.placeholder" = "확인 코드를 입력하십시오.";
+
+/* Class = "UIButton"; normalTitle = "中国 +86"; ObjectID = "SPA-D6-wnF"; */
+"SPA-D6-wnF.normalTitle" = "중국 +86";
+
+/* Class = "UILabel"; text = "X-WALLET登录"; ObjectID = "TVe-wc-aNK"; */
+"TVe-wc-aNK.text" = "X-WALLET로그인";
+
+/* Class = "UIButton"; normalTitle = "切换语言"; ObjectID = "UFq-PE-qBr"; */
+"UFq-PE-qBr.normalTitle" = "언어 전환";
+
+/* Class = "UILabel"; text = "8-20个字符（字母，数字和符号的组合），字母必须同时包含大写和小写字母"; ObjectID = "UxB-fD-dhm"; */
+"UxB-fD-dhm.text" = "8-20자(문자, 숫자 및 기호의 조합)는 대문자와 소문자를 모두 포함해야 합니다.";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "WsP-Qy-FEo"; */
+"WsP-Qy-FEo.normalTitle" = "확인 코드 보내기";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "ZJX-CN-8py"; */
+"ZJX-CN-8py.normalTitle" = "취소";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "a1M-1X-qvJ"; */
+"a1M-1X-qvJ.normalTitle" = "다음";
+
+/* Class = "UIButton"; normalTitle = "还没有账号？ 注册"; ObjectID = "bRQ-BC-ak5"; */
+"bRQ-BC-ak5.normalTitle" = "아직 계정이 없는가요? 가입하기";
+
+/* Class = "UIButton"; normalTitle = "忘记密码？"; ObjectID = "cFC-86-Wh2"; */
+"cFC-86-Wh2.normalTitle" = "암호를 잊어버렸습니다？";
+
+/* Class = "UIButton"; normalTitle = "已有账号？ 登录"; ObjectID = "cty-bh-3cd"; */
+"cty-bh-3cd.normalTitle" = "이미 계정이 있습니까? 로그인";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "dEd-Fm-qRE"; */
+"dEd-Fm-qRE.placeholder" = "계정을 입력하십시오.";
+
+/* Class = "UIButton"; normalTitle = "我确认无法更改邀请码"; ObjectID = "dqT-1x-YrS"; */
+"dqT-1x-YrS.normalTitle" = "초대 코드를 변경할 수 없다고 확신합니다.";
+
+/* Class = "UILabel"; text = "设置登录密码"; ObjectID = "eIl-p7-fbc"; */
+"eIl-p7-fbc.text" = "로그인 암호 설정";
+
+/* Class = "UIButton"; normalTitle = "没收到验证码？重新发送"; ObjectID = "eMY-kD-Ha2"; */
+"eMY-kD-Ha2.normalTitle" = "확인 코드를 압수? 재전송";
+
+/* Class = "UILabel"; text = "手机注册"; ObjectID = "j4P-1E-4hE"; */
+"j4P-1E-4hE.text" = "모바일 등록";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "jRW-Vo-riy"; */
+"jRW-Vo-riy.text" = "비밀번호 잊어버리기";
+
+/* Class = "UITextField"; placeholder = "请填写密码"; ObjectID = "mS3-KC-2HC"; */
+"mS3-KC-2HC.placeholder" = "비밀번호를 기입해주세요.";
+
+/* Class = "UITextField"; placeholder = "请填写手机号码或邮箱"; ObjectID = "pBO-nv-9aU"; */
+"pBO-nv-9aU.placeholder" = "핸드폰 번호나 이메일을 기입해 주세요";
+
+/* Class = "UITextField"; placeholder = "再次输入"; ObjectID = "tme-Rr-eaH"; */
+"tme-Rr-eaH.placeholder" = "다시 입력";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "uH3-al-oqt"; */
+"uH3-al-oqt.normalTitle" = "다음";
+
+/* Class = "UILabel"; text = "输入验证码"; ObjectID = "vLU-dN-Gqa"; */
+"vLU-dN-Gqa.text" = "확인 코드 입력";
+
+/* Class = "UITextField"; placeholder = "请填写验证码"; ObjectID = "xOg-ED-DR0"; */
+"xOg-ED-DR0.placeholder" = "확인 코드를 입력하십시오.";
+
+/* Class = "UIButton"; normalTitle = "切换到邮箱"; ObjectID = "xYD-6U-93l"; */
+"xYD-6U-93l.normalTitle" = "사서함으로 전환";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "xwP-Kx-cTk"; */
+"xwP-Kx-cTk.normalTitle" = "로그인";
+
+/* Class = "UIButton"; normalTitle = "中国 +86"; ObjectID = "xxB-bn-Shz"; */
+"xxB-bn-Shz.normalTitle" = "중국 +86";

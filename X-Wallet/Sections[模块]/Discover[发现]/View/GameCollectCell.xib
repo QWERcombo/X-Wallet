@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GameCollectCell" id="gTV-IL-0wX" customClass="GameCollectCell">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWa-Ad-rTJ">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_0" translatesAutoresizingMaskIntoConstraints="NO" id="5Ma-uc-t8j">
+                                <rect key="frame" x="-8" y="-10" width="196" height="200"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_6" translatesAutoresizingMaskIntoConstraints="NO" id="VrU-YQ-8mv">
+                                <rect key="frame" x="35" y="30" width="18.5" height="15.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fortune Bit " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCF-7K-Ell">
+                                <rect key="frame" x="35" y="55.5" width="108.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_3" translatesAutoresizingMaskIntoConstraints="NO" id="icl-Wg-scy">
+                                <rect key="frame" x="35" y="99.5" width="40" height="40"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_7" translatesAutoresizingMaskIntoConstraints="NO" id="Qr4-pl-4id">
+                                <rect key="frame" x="122" y="112.5" width="23" height="14"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Qr4-pl-4id" firstAttribute="centerY" secondItem="icl-Wg-scy" secondAttribute="centerY" id="1K0-dy-vu8"/>
+                            <constraint firstItem="VrU-YQ-8mv" firstAttribute="leading" secondItem="BWa-Ad-rTJ" secondAttribute="leading" constant="35" id="8Na-jb-Ykg"/>
+                            <constraint firstItem="VrU-YQ-8mv" firstAttribute="top" secondItem="BWa-Ad-rTJ" secondAttribute="top" constant="30" id="FqH-DY-CLy"/>
+                            <constraint firstAttribute="trailing" secondItem="Qr4-pl-4id" secondAttribute="trailing" constant="35" id="VQX-Lf-olj"/>
+                            <constraint firstItem="dCF-7K-Ell" firstAttribute="top" secondItem="VrU-YQ-8mv" secondAttribute="bottom" constant="10" id="cd9-Xh-52R"/>
+                            <constraint firstItem="icl-Wg-scy" firstAttribute="leading" secondItem="dCF-7K-Ell" secondAttribute="leading" id="d81-jr-THq"/>
+                            <constraint firstItem="icl-Wg-scy" firstAttribute="top" secondItem="dCF-7K-Ell" secondAttribute="bottom" constant="20" id="ezf-0z-dEf"/>
+                            <constraint firstItem="5Ma-uc-t8j" firstAttribute="centerY" secondItem="BWa-Ad-rTJ" secondAttribute="centerY" id="flI-WU-lOr"/>
+                            <constraint firstItem="dCF-7K-Ell" firstAttribute="leading" secondItem="VrU-YQ-8mv" secondAttribute="leading" id="haT-i1-BRB"/>
+                            <constraint firstItem="5Ma-uc-t8j" firstAttribute="centerX" secondItem="BWa-Ad-rTJ" secondAttribute="centerX" id="qar-lx-aOG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="BWa-Ad-rTJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2g2-nn-jbp"/>
+                <constraint firstItem="BWa-Ad-rTJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CwY-iT-y5C"/>
+                <constraint firstAttribute="bottom" secondItem="BWa-Ad-rTJ" secondAttribute="bottom" id="SFL-r5-S7i"/>
+                <constraint firstAttribute="trailing" secondItem="BWa-Ad-rTJ" secondAttribute="trailing" id="jSd-nZ-g9s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="bgImg" destination="5Ma-uc-t8j" id="JAB-O1-Zkd"/>
+                <outlet property="titleImg" destination="dCF-7K-Ell" id="4e7-eF-Rrl"/>
+                <outlet property="typeImg" destination="icl-Wg-scy" id="ZBs-tG-UZG"/>
+            </connections>
+            <point key="canvasLocation" x="-100.00000000000001" y="20.758928571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="game_0" width="195.5" height="199.5"/>
+        <image name="game_3" width="40" height="40"/>
+        <image name="game_6" width="18.5" height="15.5"/>
+        <image name="game_7" width="23" height="14"/>
+    </resources>
+</document>

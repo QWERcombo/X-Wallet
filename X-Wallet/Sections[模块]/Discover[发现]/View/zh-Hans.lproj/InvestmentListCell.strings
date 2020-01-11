@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "立即投资"; ObjectID = "Cwj-sF-xdy"; */
+"Cwj-sF-xdy.normalTitle" = "立即投资";
+
+/* Class = "UILabel"; text = "总收益"; ObjectID = "GSP-qz-RvL"; */
+"GSP-qz-RvL.text" = "总收益";
+
+/* Class = "UILabel"; text = "七天配套"; ObjectID = "IZ5-Am-xAP"; */
+"IZ5-Am-xAP.text" = "七天配套";
+
+/* Class = "UILabel"; text = "11"; ObjectID = "N6H-LB-Vdp"; */
+"N6H-LB-Vdp.text" = "11";
+
+/* Class = "UILabel"; text = "14%-31%"; ObjectID = "NUa-LS-2N7"; */
+"NUa-LS-2N7.text" = "14%-31%";
+
+/* Class = "UILabel"; text = "日化收益"; ObjectID = "S5V-ei-yRb"; */
+"S5V-ei-yRb.text" = "日化收益";
+
+/* Class = "UILabel"; text = "抢购中"; ObjectID = "Xce-VP-qmM"; */
+"Xce-VP-qmM.text" = "抢购中";
+
+/* Class = "UILabel"; text = "14%-31%"; ObjectID = "yaP-Rb-AM8"; */
+"yaP-Rb-AM8.text" = "14%-31%";

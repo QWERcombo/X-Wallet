@@ -1,0 +1,370 @@
+
+BaseTabBarController.m
+56:资产 <=> homeNavi.tabBarItem.title = @"资产";
+69:行情 <=> serviceNavi.tabBarItem.title = @"行情";
+81:发现 <=> intelligentNavi.tabBarItem.title = @"发现";
+93:资讯 <=> infomationNavi.tabBarItem.title = @"资讯";
+105:我的 <=> meNavi.tabBarItem.title = @"我的";
+
+UIViewController+CommonFunc.m
+175:提示 <=> UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"是否确定退出" preferredStyle:UIAlertControllerStyleAlert];
+175:是否确定退出 <=> UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"是否确定退出" preferredStyle:UIAlertControllerStyleAlert];
+176:确定 <=> UIAlertAction *done = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+181:取消 <=> UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+
+PhotoAlertController.m
+30:相机 <=> UIAlertAction *camera = [UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+39:相册 <=> UIAlertAction *album = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+47:取消 <=> UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+
+DHGuidePageHUD.m
+47:跳过 <=> [skipButton setTitle:@"跳过" forState:UIControlStateNormal];
+73:开始体验 <=> [startButton setTitle:@"开始体验" forState:UIControlStateNormal];
+150:开始体验 <=> [movieStartButton setTitle:@"开始体验" forState:UIControlStateNormal];
+
+XHLaunchAdButton.m
+19:跳过 <=> #define SkipTitle @"跳过"
+
+XHLaunchImageView.m
+45:获取 <=> XHLaunchAdLog(@"获取LaunchImage失败!请检查是否添加启动图,或者规格是否有误.");
+52:从 <=> XHLaunchAdLog(@"从 LaunchScreen 中获取启动图失败!");
+62:从 <=> XHLaunchAdLog(@"从 LaunchScreen 中获取启动图失败!");
+
+XHLaunchAd.m
+284:未设置广告图片 <=> XHLaunchAdLog(@"未设置广告图片");
+391:未设置广告视频 <=> XHLaunchAdLog(@"未设置广告视频");
+
+InfomationDetailVC.m
+27:资讯详情 <=> self.title = @"资讯详情";
+
+CountryCodeVC.m
+52:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+
+LoginViewController.m
+63:中国 <=> self.countryModel.name = @"中国";
+64:还没有账号 <=> NSMutableAttributedString *attstr = [[NSMutableAttributedString alloc] initWithString:@"还没有账号？ 注册"];
+65:注册 <=> [attstr addAttributes:@{NSForegroundColorAttributeName:kMainColor} range:[self.registBtn.currentTitle rangeOfString:@"注册"]];
+85:中文 <=> [YBPopupMenu showRelyOnView:self.languageBtn titles:@[@"中文",@"English",@"日本語",@"한글"] icons:nil menuWidth:120.0 otherSettings:^(YBPopupMenu *popupMenu) {
+85:日本語 <=> [YBPopupMenu showRelyOnView:self.languageBtn titles:@[@"中文",@"English",@"日本語",@"한글"] icons:nil menuWidth:120.0 otherSettings:^(YBPopupMenu *popupMenu) {
+148:切换到邮箱 <=> if ([x.currentTitle isEqualToString:@"切换到邮箱"]) {
+149:邮箱登录 <=> self.titleLab.text = @"邮箱登录";
+150:请填写邮箱 <=> self.phoneTF.placeholder = @"请填写邮箱";
+154:切换到手机号 <=> [self.emailBtn setTitle:@"切换到手机号" forState:UIControlStateNormal];
+157:请填写手机号 <=> self.phoneTF.placeholder = @"请填写手机号";
+161:切换到邮箱 <=> [self.emailBtn setTitle:@"切换到邮箱" forState:UIControlStateNormal];
+196:请填写正确的验证码 <=> [self promptMsg:@"请填写正确的验证码"];
+200:登录中 <=> [SVProgressHUD showWithStatus:@"登录中..."];
+
+RegistVC.m
+38:中国 <=> self.countryModel.name = @"中国";
+41:已有账号 <=> NSMutableAttributedString *attstr = [[NSMutableAttributedString alloc] initWithString:@"已有账号？ 登录"];
+42:已有账号 <=> [attstr addAttributes:@{NSForegroundColorAttributeName:kMainColor} range:[@"已有账号？ 登录" rangeOfString:@"登录"]];
+42:登录 <=> [attstr addAttributes:@{NSForegroundColorAttributeName:kMainColor} range:[@"已有账号？ 登录" rangeOfString:@"登录"]];
+53:手机注册 <=> self.titleLab.text = @"手机注册";
+54:请输入账号 <=> self.accountTF.placeholder = @"请输入账号";
+56:切换到邮箱注册 <=> [self.changeBtn setTitle:@"切换到邮箱注册" forState:UIControlStateNormal];
+59:注册账号 <=> self.titleLab.text = @"注册账号";
+60:请填写邮箱 <=> self.accountTF.placeholder = @"请填写邮箱";
+62:切换到手机注册 <=> [self.changeBtn setTitle:@"切换到手机注册" forState:UIControlStateNormal];
+71:切换到邮箱注册 <=> if ([x.currentTitle isEqualToString:@"切换到邮箱注册"]) {
+111:请填写手机号码 <=> [self promptMsg:@"请填写手机号码"];
+114:请填写邮箱 <=> [self promptMsg:@"请填写邮箱"];
+118:获取中 <=> [SVProgressHUD showWithStatus:@"获取中..."];
+125:验证码已发送 <=> [self promptReqSuccess:@"验证码已发送"];
+
+ForgetPsdVC.m
+45:请输入手机或邮箱 <=> [self promptMsg:@"请输入手机或邮箱"];
+48:获取中 <=> [SVProgressHUD showWithStatus:@"获取中..."];
+55:验证码已发送 <=> [self promptReqSuccess:@"验证码已发送"];
+92:提交中 <=> [SVProgressHUD showWithStatus:@"提交中..."];
+99:找回成功 <=> [self promptReqSuccess:@"找回成功"];
+
+CheckCodeVC.m
+34:验证码已发送至 <=> self.titleLab.text = [NSString stringWithFormat:@"验证码已发送至 %@", self.accountStr];
+36:输入验证码 <=> self.topLab.text = @"输入验证码";
+47:发币前需要设置支付密码 <=> self.titleLab.text = @"发币前需要设置支付密码";
+49:设置支付密码 <=> self.topLab.text = @"设置支付密码";
+59:没有收到验证码 <=> [self.reSendBtn setTitle:@"没有收到验证码，60s" forState:UIControlStateDisabled];
+67:发送中 <=> [SVProgressHUD showWithStatus:@"发送中..."];
+74:验证码已发送 <=> [self promptReqSuccess:@"验证码已发送"];
+78:没有收到验证码 <=> [self.reSendBtn setTitle:@"没有收到验证码，60s" forState:UIControlStateNormal];
+111:校验中 <=> [SVProgressHUD showWithStatus:@"校验中..."];
+132:注册中 <=> [SVProgressHUD showWithStatus:@"注册中..."];
+139:注册成功 <=> [self promptReqSuccess:@"注册成功"];
+155:没有收到验证码 <=> [self.reSendBtn setTitle:[NSString stringWithFormat:@"没有收到验证码，%zds",second-=1] forState:UIControlStateDisabled];
+
+AboutUsVC.m
+24:关于我们 <=> self.title = @"关于我们";
+33:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+
+MyOrderVC.m
+36:我的订单 <=> self.title = @"我的订单";
+107:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+140:已支付 <=> cell.showStatus.text = @"已支付";
+143:待发货 <=> cell.showStatus.text = @"待发货";
+147:未发货 <=> [cell.fillBtn setTitle:@"未发货" forState:UIControlStateNormal];
+150:已发货 <=> cell.showStatus.text = @"已发货";
+153:确认收货 <=> [cell.fillBtn setTitle:@"确认收货" forState:UIControlStateNormal];
+156:已收货 <=> cell.showStatus.text = @"已收货";
+159:已收货 <=> [cell.borderBtn setTitle:@"已收货" forState:UIControlStateNormal];
+163:共 <=> cell.showInfo.text = [NSString stringWithFormat:@"共%zd件商品 实付款：%@%@",model.goods_number,model.total_amount,model.currency_name];
+
+ModifySafeCodeVC.m
+25:修改安全密码 <=> self.title = @"修改安全密码";
+29:获取中 <=> [SVProgressHUD showWithStatus:@"获取中..."];
+36:验证码已发送 <=> [self promptReqSuccess:@"验证码已发送"];
+57:提交中 <=> [SVProgressHUD showWithStatus:@"提交中..."];
+64:修改成功 <=> [self promptReqSuccess:@"修改成功"];
+
+InviteVC.m
+30:邀请好友 <=> self.title = @"邀请好友";
+42:复制邀请码成功 <=> [self promptReqSuccess:@"复制邀请码成功"];
+50:复制链接码成功 <=> [self promptReqSuccess:@"复制链接码成功"];
+57:保存图片失败 <=> msg = @"保存图片失败";
+60:保存图片成功 <=> msg = @"保存图片成功";
+
+UserInfoVC.m
+40:编辑资料 <=> self.title = @"编辑资料";
+52:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+80:上传中 <=> [SVProgressHUD showWithStatus:@"上传中..."];
+94:上传成功 <=> [self promptReqSuccess:@"上传成功"];
+
+EarnDetailVC.m
+31:收益明细 <=> self.title = @"收益明细";
+38:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+
+TeamVC.m
+64:投资额 <=> cell.showAccount.text = [NSString stringWithFormat:@"投资额：$%.4f",model.user.team_user_money];
+
+MyTeamVC.m
+40:我的团队 <=> self.title = @"我的团队";
+95:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+
+FaqVC.m
+23:常见问题 <=> self.title = @"常见问题";
+27:什么是 <=> NSArray *infosArray = @[@{@"title":@"什么是X-WALLET?",@"content":@"X-WALLET是匿名8+1的其中一个生态。",@"isDisplay":@(NO)},
+29:什么是匿名 <=> @{@"title":@"什么是匿名8+1？",@"content":@"匿名8+1是：\ni)匿名钱包 X-WALLET\nii)智能合约 X-TRADE\niii) 支付体系 X-PAYMENT\niv) 商城 X-MALLS\nv) 游戏 X-GAMES\nvi) 矿机 X-MINING\nvii) 匿名主链XCN\nviii) 匿名交易所 X-EXCHANGE + 粉丝体系 X-FANS这是公司的一套的项目规划，也是在这个过程中如何把制作出来的泡沫消掉。目标 ：匿名主链XCN + 匿名交易所 X-EXCHANGE",@"isDisplay":@(NO)},
+29:匿名 <=> @{@"title":@"什么是匿名8+1？",@"content":@"匿名8+1是：\ni)匿名钱包 X-WALLET\nii)智能合约 X-TRADE\niii) 支付体系 X-PAYMENT\niv) 商城 X-MALLS\nv) 游戏 X-GAMES\nvi) 矿机 X-MINING\nvii) 匿名主链XCN\nviii) 匿名交易所 X-EXCHANGE + 粉丝体系 X-FANS这是公司的一套的项目规划，也是在这个过程中如何把制作出来的泡沫消掉。目标 ：匿名主链XCN + 匿名交易所 X-EXCHANGE",@"isDisplay":@(NO)},
+31:匿名 <=> @{@"title":@"匿名8+1来自哪里？",@"content":@"匿名8+1来自欧洲爱沙尼亚，科技强国。",@"isDisplay":@(NO)},
+31:匿名 <=> @{@"title":@"匿名8+1来自哪里？",@"content":@"匿名8+1来自欧洲爱沙尼亚，科技强国。",@"isDisplay":@(NO)},
+33:匿名 <=> @{@"title":@"匿名8+1 的创办人是谁？",@"content":@"匿名8+1是由欧洲的8大资本方（PlayFair Foundation, Digital Currency Group, Blufolio VC, First Round Capital, Catagonia, Union Square Ventures, Camp One Ventures 和Pantera Capital. ）",@"isDisplay":@(NO)},
+33:匿名 <=> @{@"title":@"匿名8+1 的创办人是谁？",@"content":@"匿名8+1是由欧洲的8大资本方（PlayFair Foundation, Digital Currency Group, Blufolio VC, First Round Capital, Catagonia, Union Square Ventures, Camp One Ventures 和Pantera Capital. ）",@"isDisplay":@(NO)},
+35:海外会员可以注册 <=> @{@"title":@"海外会员可以注册X-Wallet吗？",@"content":@"可以。 X-Wallet是个全球化的国际项目， 目前中国，香港，台湾，马来西亚，泰国，印度尼西亚，越南，日本，韩国等等国家都有社区。",@"isDisplay":@(NO)},
+35:可以 <=> @{@"title":@"海外会员可以注册X-Wallet吗？",@"content":@"可以。 X-Wallet是个全球化的国际项目， 目前中国，香港，台湾，马来西亚，泰国，印度尼西亚，越南，日本，韩国等等国家都有社区。",@"isDisplay":@(NO)},
+36:论技术 <=> @{@"title":@"论技术，匿名8+1的目标是什么？",@"contnet":@"XCN是基于区块链4.0技术的全匿名基础公链,专注实现隐私和快速处理交易的数字货币吸收了匿名公有链公开透明的优势，融入了ZCash的零知识用户隐私权，并在其区块交易确认上引入了bulletproof防弹协议。",@"isDisplay":@(NO)},
+37:如今政策管得那么严格 <=> @{@"title":@"如今政策管得那么严格，X-Wallet是否会受影响？",@"content":@"不会",@"isDisplay":@(NO)},
+37:不会 <=> @{@"title":@"如今政策管得那么严格，X-Wallet是否会受影响？",@"content":@"不会",@"isDisplay":@(NO)},
+38:为了提升代币价值 <=> @{@"title":@"X-Wallet的销毁机制跟XCN的市值有什么关系？",@"content":@"为了提升代币价值，将会通过回购代币销毁的方法，来减少流通量从而提高代币市场价格。因此在销毁机制的刺激下，可流通的XCN总量将会受到影响逐渐降低，而随着市场热度越高，XCN的价值将会受到促进。",@"isDisplay":@(NO)},
+40:如何参与 <=> @{@"title":@"如何参与X-Wallet的智能合约？",@"content":@"参与只需要低于100美金；500美金为有效会员。",@"isDisplay":@(NO)},
+40:参与只需要低于 <=> @{@"title":@"如何参与X-Wallet的智能合约？",@"content":@"参与只需要低于100美金；500美金为有效会员。",@"isDisplay":@(NO)},
+44:投资 <=> @{@"title":@"投资X-Wallet有风险吗？",@"content":@"任何投资都有风险。问题是风险是不是可控的。不同的合约投资金额有大有小，时间有长有短，本金又都是随进随出的，完全可以根据自己的情况灵活投资，风险可控。",@"isDisplay":@(NO)},
+44:任何投资都有风险 <=> @{@"title":@"投资X-Wallet有风险吗？",@"content":@"任何投资都有风险。问题是风险是不是可控的。不同的合约投资金额有大有小，时间有长有短，本金又都是随进随出的，完全可以根据自己的情况灵活投资，风险可控。",@"isDisplay":@(NO)},
+46:不同国家的态度各有不同 <=> @{@"title":@"X-Wallet合法吗？",@"content":@"不同国家的态度各有不同。就中国来说，虚拟货币也是一种资产，国家不提倡，也不反对。但是提供保护。 ",@"isDisplay":@(NO)}
+
+MineViewController.m
+45:我的 <=> self.title = @"我的";
+66:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+
+ModifyNickNameVC.m
+21:修改昵称 <=> self.title = @"修改昵称";
+28:提交中 <=> [SVProgressHUD showWithStatus:@"提交中..."];
+35:修改成功 <=> [self promptReqSuccess:@"修改成功"];
+
+FeedBackVC.m
+31:用户反馈 <=> self.title = @"用户反馈";
+51:上传中 <=> [SVProgressHUD showWithStatus:@"上传中..."];
+60:上传成功 <=> [self promptReqSuccess:@"上传成功"];
+86:上传中 <=> [SVProgressHUD showWithStatus:@"上传中..."];
+95:上传成功 <=> [self promptReqSuccess:@"上传成功"];
+123:上传中 <=> [SVProgressHUD showWithStatus:@"上传中..."];
+126:上传中 <=> [SVProgressHUD showWithStatus:@"上传中..."];
+134:上传成功 <=> [self promptReqSuccess:@"上传成功"];
+160:请输入联系方式 <=> [self promptMsg:@"请输入联系方式"];
+163:请输入反馈信息 <=> [self promptMsg:@"请输入反馈信息"];
+176:反馈成功 <=> [self promptReqSuccess:@"反馈成功"];
+
+InvestmentDetailVC.m
+34:请选择 <=> self.coinName.text = @"请选择";
+35:可用余额 <=> self.canuseLab.text = @"可用余额：0";
+58:请选择 <=> if ([self.coinName.text isEqualToString:@"请选择"]) {
+59:请选择币种 <=> [self promptMsg:@"请选择币种"];
+63:请输入数量 <=> [self promptMsg:@"请输入数量"];
+67:可用余额不足 <=> [self promptMsg:@"可用余额不足"];
+71:请输入交易密码 <=> [self promptMsg:@"请输入交易密码"];
+79:购买成功 <=> [self promptReqSuccess:@"购买成功"];
+110:可用余额 <=> self.canuseLab.text = [NSString stringWithFormat:@"可用余额：%@",model.change_balance];
+
+ExchangeRecordVC.m
+24:兑换记录 <=> self.title = @"兑换记录";
+
+AllTypeVC.m
+25:全部 <=> self.title = @"全部";
+27:充币 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:提币 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:收款 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:付款 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:币兑 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:合约 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:商城 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:游戏 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:交易所 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:社区 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:投票 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+27:生态 <=> [self.listArray addObjectsFromArray:@[@"充币",@"提币",@"收款",@"付款",@"币兑",@"合约",@"商城",@"游戏",@"交易所",@"社区",@"投票",@"生态"]];
+67:充币 <=> if ([name isEqualToString:@"充币"]) {
+71:提币 <=> else if ([name isEqualToString:@"提币"]) {
+79:充币 <=> } else if ([name isEqualToString:@"充币"]) {
+81:提币 <=> } else if ([name isEqualToString:@"提币"]) {
+84:敬请期待 <=> [self promptMsg:@"敬请期待"];
+92:游戏 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+92:商城 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+92:币兑 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+92:合约 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+
+InvestmentListVC.m
+27:立即投资 <=> self.title = @"立即投资";
+
+GameVC.m
+23:游戏 <=> self.title = @"游戏";
+25:刮刮乐 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"Fortune Bit ",@"type":@"game_3",@"bg":@"game_0"},@{@"title":@"刮刮乐",@"type":@"game_5",@"bg":@"game_1"},@{@"title":@"Dice骰子",@"type":@"game_4",@"bg":@"game_2"}]];
+
+OrderSubVC.m
+40:配送 <=> self.peisongLab.text = @"配送lab";
+
+SetOrderVC.m
+25:结算 <=> self.title = @"结算";
+31:请输入收货人 <=> [self promptMsg:@"请输入收货人"];
+35:请输入收货人手机号码 <=> [self promptMsg:@"请输入收货人手机号码"];
+39:请输入详细地址 <=> [self promptMsg:@"请输入详细地址"];
+43:请输入邮政编码 <=> [self promptMsg:@"请输入邮政编码"];
+
+ShopListCell.m
+30:小米 <=> self.shop_name.text = @"小米 米家蓝牙温湿度计 高灵敏度传感器 LCD屏幕 磁吸墙贴 低功耗";
+
+ShopChooseSizeView.m
+41:请选择样式 <=> [PromptUtils promptMsg:@"请选择样式"];
+45:请选择数量 <=> [PromptUtils promptMsg:@"请选择数量"];
+
+ShopListVC.m
+27:商品列表 <=> self.title = @"商品列表";
+29:淘宝 <=> self.typeArray = @[@"淘宝",@"Shopee",@"Lazada"];
+
+ShopDetailVC.m
+70:请先选择规格 <=> [self promptMsg:@"请先选择规格"];
+74:请先选择支付方式 <=> [self promptMsg:@"请先选择支付方式"];
+119:支付方式 <=> label.text = @"支付方式";
+199:不知道 <=> self.shopAddress.text = self.dataDic[@"不知道"];
+200:月销量 <=> self.shopCount.text = [NSString stringWithFormat:@"月销量 %@", self.dataDic[@"sold_count"]];
+
+ShopTypeCell.m
+37:点击进入 <=> [self.shop_btn setTitle:@"点击进入" forState:UIControlStateNormal];
+
+CommunityVC.m
+50:社区 <=> self.title = @"社区";
+56:社区规则 <=> [RuleView showRuleViewWithTitle:@"社区规则" content:@"会员等级介绍：\n会员等级是基于用户通过分享智能合约并达到相应的等级门槛即可升级。\n\n会员等级福利：\n升级不同的会员等级即可解锁更多的不同福利奖励。如下 :\ni. 更多的分享代数奖励\nii. 上拿领导人团队总收益\niii. 整个组织收益佣金\n\n会员等级降级 ：\n用户须同时附合三个考核条件（分享人数，团队总市值，三区考核等级）；若其中一项失效，将自动降级。\n\n会员等级列表 ：\na.初级节点\nb.中级节点\nc.高级节点\nd.超级节点\ne.环球节点\n\n**更多详细参阅分享动态\n\n备注 ：\n1. 用户须在24小时内登录钱包点击领取动态收益 ; 超时即视为失效。\n2. 每一笔动态收益将自动扣取20%管理费并分配为佣金给予节点。\n\n温馨提示 ：\n数字资产是创新型投资品，价格波动较大，具有较高的投资风险。投资前望您对数字资产充分认知，理性判断投资能力，审慎做出投资决策。"];
+56:会员等级介绍 <=> [RuleView showRuleViewWithTitle:@"社区规则" content:@"会员等级介绍：\n会员等级是基于用户通过分享智能合约并达到相应的等级门槛即可升级。\n\n会员等级福利：\n升级不同的会员等级即可解锁更多的不同福利奖励。如下 :\ni. 更多的分享代数奖励\nii. 上拿领导人团队总收益\niii. 整个组织收益佣金\n\n会员等级降级 ：\n用户须同时附合三个考核条件（分享人数，团队总市值，三区考核等级）；若其中一项失效，将自动降级。\n\n会员等级列表 ：\na.初级节点\nb.中级节点\nc.高级节点\nd.超级节点\ne.环球节点\n\n**更多详细参阅分享动态\n\n备注 ：\n1. 用户须在24小时内登录钱包点击领取动态收益 ; 超时即视为失效。\n2. 每一笔动态收益将自动扣取20%管理费并分配为佣金给予节点。\n\n温馨提示 ：\n数字资产是创新型投资品，价格波动较大，具有较高的投资风险。投资前望您对数字资产充分认知，理性判断投资能力，审慎做出投资决策。"];
+
+ExchangeCoinVC.m
+39:币兑 <=> self.title = @"币兑";
+85:兑换成功 <=> [self promptReqSuccess:@"兑换成功" promptCompletion:^{
+112:可用余额 <=> self.canuseLan.text = [NSString stringWithFormat:@"可用余额：%@%@",self.exchangeModel.info.change_balance,self.exchangeModel.info.currency_name];
+
+DiscoverViewController.m
+43:生态应用 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:充币 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:提币 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:币兑 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:合约 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:商城 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:游戏 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:矿机 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:全部 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:热门应用 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:行情资讯 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:币兑交易所 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:区块链浏览器 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:区块链游戏 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:网上商城 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:兴旺商城 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+43:禧万福 <=> [self.listArray addObjectsFromArray:@[@{@"title":@"生态应用",@"arr":@[@"充币",@"提币",@"币兑",@"合约",@"商城",@"游戏",@"矿机",@"全部"],@"class":@"DiscoverTypeCell"},@{@"title":@"热门应用",@"arr":@[@"Contract",@"Community",@"Exchange",@"Card"],@"class":@"DiscoverSectionCell"},@{@"title":@"行情资讯",@"arr":@[@"MyToken",@"Bishijie",@"Zuanbi8",@"FN.com",@"Jsgu",@"Feixiaohao"],@"class":@"DiscoverTypeCell"},@{@"title":@"币兑交易所",@"arr":@[@"Biki",@"Binance",@"Huobi",@"Zb.com",@"CoinW",@"Gateio",@"Bittrex",@"Bibox",@"Fubt",@"BTB.io",@"Dfex",@"ZT.com",@"Loex",@"Coinbig",@"KuCoin"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链浏览器",@"arr":@[@"Omni Explorer",@"BTC.com",@"Etherscan",@"EosPark",@"Tokenview"],@"class":@"DiscoverTypeCell"},@{@"title":@"区块链游戏",@"arr":@[@"Winni",@"Crypto",@"BingBet",@"Endless",@"Big Game",@"Prabos",@"Trust",@"Token Planet"],@"class":@"DiscoverTypeCell"},@{@"title":@"网上商城",@"arr":@[@"兴旺商城",@"禧万福"],@"class":@"DiscoverTypeCell"}]];
+58:暂未开放 <=> [self promptMsg:@"暂未开放"];
+123:合约 <=> NSArray *arr = @[@"合约",@"社区",@"币兑",@"名片"];
+123:社区 <=> NSArray *arr = @[@"合约",@"社区",@"币兑",@"名片"];
+123:币兑 <=> NSArray *arr = @[@"合约",@"社区",@"币兑",@"名片"];
+123:名片 <=> NSArray *arr = @[@"合约",@"社区",@"币兑",@"名片"];
+229:矿机 <=> } else if ([name isEqualToString:@"矿机"]) {
+230:敬请期待 <=> [self promptMsg:@"敬请期待"];
+254:充币 <=> else if ([name isEqualToString:@"充币"]) {
+258:提币 <=> else if ([name isEqualToString:@"提币"]) {
+288:全部 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"AllTypeVC",@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"全部",@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+288:游戏 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"AllTypeVC",@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"全部",@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+288:商城 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"AllTypeVC",@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"全部",@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+288:币兑 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"AllTypeVC",@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"全部",@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+288:合约 <=> _classDic = [[NSDictionary alloc] initWithObjects:@[@"AllTypeVC",@"GameVC",@"CommunityVC",@"ExchangeCoinVC",@"ContractVC",@"ShopListVC",@"ExchangeCoinVC",@"ContractVC"] forKeys:@[@"全部",@"游戏",@"Community",@"Exchange",@"Contract",@"商城",@"币兑",@"合约"]];
+
+InvestmentListCell.m
+37:总收益 <=> cell.hintLab.text = model.day.integerValue>=30?@"总收益(月化)":@"总收益";
+37:总收益 <=> cell.hintLab.text = model.day.integerValue>=30?@"总收益(月化)":@"总收益";
+
+CommunityRecordVC.m
+25:明细 <=> self.title = @"明细";
+
+ContractVC.m
+45:合约 <=> self.title = @"合约";
+100:智能合约规则 <=> [RuleView showRuleViewWithTitle:@"智能合约规则" content:@"1. 最低认购额为价值100美金 ; 500美金即为有效用户。\n\n认购配套如下：\n7天 ： 0.20%-0.43%\n15天 ：0.27%-0.53%\n30天 ：0.30%-0.60%\n90天 ：0.43%-0.67%\n45天 : 0.6% - 1.0%\n\n2. 认购智能合约配套成功后，用户将在隔日起获得'XCN'为每日收益奖励。\n\n3.合约到期后，本金将自动返回钱包。\n\n4. XCN即可进入“币兑”，进行闪兑并兑取主流货币。\n\n备注 ：\n1. 每一笔合约日收益将自动扣取20%管理费并分配为佣金给予节点。\n2.一个账号可同时认购多个智能合约配套，封顶额为价值5万美金。\n3.45天配套即限使用XCN认购。\n4.提早结束合约，将视为违约并根据𣎴同的配套收取一定的违约金。\n\n温馨提示：\n数字资产获利回收需要一定的周期。在此期间发生的任何数字资产流动风险，我平台不承担任何责任。用户须具备投资风险意识及风险识别能力，并自行承担投资风险。"];
+125:提前取消将收取投资额的 <=> [CancelContractView showCancelContractView:[NSString stringWithFormat:@"提前取消将收取投资额的%@违约金；到期则1%%。",[NSString getContractCancelFee:model.contract_day]] feeStr:[NSString getContractCancelFee:model.contract_day] block:^(BOOL isDone) {
+132:取消成功 <=> [self promptReqSuccess:@"取消成功" promptCompletion:^{
+
+AssetViewController.m
+91:加载中 <=> [SVProgressHUD showInfoWithStatus:@"加载中..."];
+
+ExtractCoinVC.m
+52:提币 <=> self.title = @"提币";
+67:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+95:可用 <=> self.availLab.text = [NSString stringWithFormat:@"可用%@ %@",coinModel.change_balance,coinModel.currency_name];
+99:手续费 <=> self.feeLab.text = @"手续费（$0.0）";
+165:获取中 <=> [SVProgressHUD showWithStatus:@"获取中..."];
+172:验证码已发送 <=> [self promptReqSuccess:@"验证码已发送"];
+184:提现中 <=> [SVProgressHUD showWithStatus:@"提现中..."];
+191:提现成功 <=> [self promptReqSuccess:@"提现成功"];
+207:手续费 <=> self.feeLab.text = [NSString stringWithFormat:@"手续费（$%g）",fee];
+
+ExtractRecordVC.m
+28:提币明细 <=> self.title = @"提币明细";
+43:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+
+ScanViewController.m
+38:扫一扫 <=> self.title = @"扫一扫";
+51:扫一扫 <=> titleLabel.text = @"扫一扫";
+59:将二维码放入框内即可自动扫描 <=> tipsLabel.text = @"将二维码放入框内即可自动扫描";
+164:无法使用相机 <=> UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"无法使用相机" message:@"请在iPhone的”设置-隐私-相机”中允许访问相机。" preferredStyle:UIAlertControllerStyleAlert];
+164:请在 <=> UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"无法使用相机" message:@"请在iPhone的”设置-隐私-相机”中允许访问相机。" preferredStyle:UIAlertControllerStyleAlert];
+165:确定 <=> UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+
+XWHomeAlertView.m
+104:今日静动态收益 <=> _info1Label.text = @"今日静动态收益";
+122:立即领取 <=> [_getButton setTitle:@"立即领取" forState:UIControlStateNormal];
+
+ChargeCoinVC.m
+37:充币 <=> self.title = @"充币";
+71:复制成功 <=> [self promptReqSuccess:@"复制成功"];
+80:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+104:保存图片失败 <=> msg = @"保存图片失败";
+107:保存图片成功 <=> msg = @"保存图片成功";
+
+AssetDetailVC.m
+72:加载中 <=> [SVProgressHUD showWithStatus:@"加载中..."];
+90:可用 <=> self.coinUse.text = [NSString stringWithFormat:@"可用：%@",self.model.wallet_info.change_balance];
+98:闪兑 <=> [bottomButtonInfosArray addObject:@{@"title":@"闪兑",@"image":@"ass_detail_0"}];
+101:转账 <=> [bottomButtonInfosArray addObject:@{@"title":@"转账",@"image":@"ass_detail_1"}];
+104:充币 <=> [bottomButtonInfosArray addObject:@{@"title":@"充币",@"image":@"ass_detail_3"}];
+107:提币 <=> [bottomButtonInfosArray addObject:@{@"title":@"提币",@"image":@"ass_detail_4"}];
+110:合约 <=> [bottomButtonInfosArray addObject:@{@"title":@"合约",@"image":@"ass_detail_2"}];
+164:全部 <=> [titlesArray addObject:@"全部"];
+195:闪兑 <=> if ([title isEqualToString:@"闪兑"]) {
+200:转账 <=> else if ([title isEqualToString:@"转账"]){
+201:暂未开放 <=> [SVProgressHUD showInfoWithStatus:@"暂未开放"];
+203:充币 <=> else if ([title isEqualToString:@"充币"]){
+208:提币 <=> else if ([title isEqualToString:@"提币"]){
+214:合约 <=> else if ([title isEqualToString:@"合约"]) {
+226:全部 <=> [self.allBtn setTitle:@"全部" forState:UIControlStateNormal];

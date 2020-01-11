@@ -1,0 +1,330 @@
+
+/* Class = "UILabel"; text = "$399.00"; ObjectID = "0eX-a5-ek5"; */
+"0eX-a5-ek5.text" = "$399.00";
+
+/* Class = "UILabel"; text = "上海"; ObjectID = "0ef-de-kQP"; */
+"0ef-de-kQP.text" = "상하이";
+
+/* Class = "UILabel"; text = "初级会员"; ObjectID = "163-Dq-DaO"; */
+"163-Dq-DaO.text" = "주니어 회원";
+
+/* Class = "UILabel"; text = "包邮"; ObjectID = "1Oh-VB-aut"; */
+"1Oh-VB-aut.text" = "무료 배송";
+
+/* Class = "UITextField"; placeholder = "输入数量"; ObjectID = "1ST-BP-Py8"; */
+"1ST-BP-Py8.placeholder" = "수량 입력";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "1oP-5q-Ece"; */
+"1oP-5q-Ece.text" = "0.00";
+
+/* Class = "UILabel"; text = "个人合约"; ObjectID = "1y1-9o-c5q"; */
+"1y1-9o-c5q.text" = "개인X-Trade";
+
+/* Class = "UILabel"; text = "手机号码"; ObjectID = "2rT-FX-oN2"; */
+"2rT-FX-oN2.text" = "휴대폰 번호";
+
+/* Class = "UIButton"; normalTitle = "投资列表"; ObjectID = "35J-OR-US1"; */
+"35J-OR-US1.normalTitle" = "투자 목록";
+
+/* Class = "UILabel"; text = "日期"; ObjectID = "3rr-t7-vSL"; */
+"3rr-t7-vSL.text" = "날짜";
+
+/* Class = "UIButton"; normalTitle = "订单"; ObjectID = "47Y-Zg-WK4"; */
+"47Y-Zg-WK4.normalTitle" = "순서";
+
+/* Class = "UILabel"; text = "团队总收益"; ObjectID = "6Mu-Ql-Qwg"; */
+"6Mu-Ql-Qwg.text" = "팀에 대한 총 혜택";
+
+/* Class = "UITextField"; placeholder = "输入数量"; ObjectID = "7YG-1x-d0i"; */
+"7YG-1x-d0i.placeholder" = "입력 수";
+
+/* Class = "UILabel"; text = "已选择："; ObjectID = "9Ap-80-2z6"; */
+"9Ap-80-2z6.text" = "선택한：";
+
+/* Class = "UIButton"; normalTitle = "ETH"; ObjectID = "9In-dw-1BR"; */
+"9In-dw-1BR.normalTitle" = "ETH";
+
+/* Class = "UILabel"; text = "卖出"; ObjectID = "9oR-Fi-jcL"; */
+"9oR-Fi-jcL.text" = "판매";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "9su-h8-RIm"; */
+"9su-h8-RIm.text" = "≈$0";
+
+/* Class = "UILabel"; text = "生态佣金平级收益"; ObjectID = "ACg-nR-4BS"; */
+"ACg-nR-4BS.text" = "에코 커미션 수준 실적";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "ARt-9h-cyP"; */
+"ARt-9h-cyP.text" = "≈$0";
+
+/* Class = "UITextField"; placeholder = "请输入收货人姓名"; ObjectID = "BCE-3E-66l"; */
+"BCE-3E-66l.placeholder" = "수취인의 이름을 입력하십시오.";
+
+/* Class = "UILabel"; text = "个人智能合约额"; ObjectID = "BGd-rr-zi0"; */
+"BGd-rr-zi0.text" = "개인X-Trade금액";
+
+/* Class = "UIButton"; normalTitle = "规则"; ObjectID = "BLQ-06-MhT"; */
+"BLQ-06-MhT.normalTitle" = "규칙";
+
+/* Class = "UIButton"; normalTitle = "规则"; ObjectID = "BmH-c2-aYC"; */
+"BmH-c2-aYC.normalTitle" = "규칙";
+
+/* Class = "UILabel"; text = "$399.00"; ObjectID = "Cft-DO-253"; */
+"Cft-DO-253.text" = "$399.00";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "Clm-B7-ooA"; */
+"Clm-B7-ooA.text" = "≈$0";
+
+/* Class = "UILabel"; text = "X-Trade"; ObjectID = "EXd-iy-Flz"; */
+"EXd-iy-Flz.text" = "X-Trade";
+
+/* Class = "UILabel"; text = "ETH"; ObjectID = "EpA-Sx-3OD"; */
+"EpA-Sx-3OD.text" = "ETH";
+
+/* Class = "UILabel"; text = "1 BTC≈****ETH"; ObjectID = "EqU-RC-2WW"; */
+"EqU-RC-2WW.text" = "1 BTC≈****ETH";
+
+/* Class = "UIButton"; normalTitle = "立即购买"; ObjectID = "Ft6-l9-SLi"; */
+"Ft6-l9-SLi.normalTitle" = "지금 구매하기";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "G5X-dL-y7w"; */
+"G5X-dL-y7w.text" = "≈$0";
+
+/* Class = "UILabel"; text = "小米新品真无线蓝牙耳机，ENC环境降噪。"; ObjectID = "GIx-lV-gAK"; */
+"GIx-lV-gAK.text" = "XIAOMI새로운 진정한 무선 블루투스 헤드셋,ENC 환경 소음 감소";
+
+/* Class = "UILabel"; text = "X-Trade"; ObjectID = "HAf-cY-DkS"; */
+"HAf-cY-DkS.text" = "X-Trade";
+
+/* Class = "UITextField"; placeholder = "输入交易密码"; ObjectID = "HbV-jW-5SX"; */
+"HbV-jW-5SX.placeholder" = "트랜잭션 암호 입력";
+
+/* Class = "UILabel"; text = "0人"; ObjectID = "I3Z-Ni-csO"; */
+"I3Z-Ni-csO.text" = "0人";
+
+/* Class = "UIButton"; normalTitle = "收益中"; ObjectID = "I4U-Ot-C2W"; */
+"I4U-Ot-C2W.normalTitle" = "수입";
+
+/* Class = "UILabel"; text = "商城"; ObjectID = "J02-MR-DoA"; */
+"J02-MR-DoA.text" = "X-Mall";
+
+/* Class = "UILabel"; text = "游戏"; ObjectID = "J77-HU-bVy"; */
+"J77-HU-bVy.text" = "X-Game";
+
+/* Class = "UILabel"; text = "今日最新收益"; ObjectID = "JyT-0V-ixB"; */
+"JyT-0V-ixB.text" = "오늘의 최신 실적";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "KLS-8u-Vmv"; */
+"KLS-8u-Vmv.text" = "≈$0";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "Ka3-uS-2od"; */
+"Ka3-uS-2od.text" = "≈$0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LRw-jx-kIF"; */
+"LRw-jx-kIF.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "已取消"; ObjectID = "Lxm-h2-QSo"; */
+"Lxm-h2-QSo.normalTitle" = "취소";
+
+/* Class = "UILabel"; text = "总收益"; ObjectID = "MB4-tC-dXO"; */
+"MB4-tC-dXO.text" = "총 수익";
+
+/* Class = "UILabel"; text = "个人收益"; ObjectID = "Mmn-RH-Wef"; */
+"Mmn-RH-Wef.text" = "개인적인 이득";
+
+/* Class = "UIButton"; normalTitle = "购买"; ObjectID = "NSa-wX-dcO"; */
+"NSa-wX-dcO.normalTitle" = "구입";
+
+/* Class = "UILabel"; text = "月销量  3500"; ObjectID = "Ow2-11-f7t"; */
+"Ow2-11-f7t.text" = "월간 판매3500";
+
+/* Class = "UITextField"; placeholder = "请输入邮政编码"; ObjectID = "P3l-mz-6Vz"; */
+"P3l-mz-6Vz.placeholder" = "우편 번호 입력";
+
+/* Class = "UILabel"; text = "小米蓝牙耳机 Air2代 蓝牙耳机 Air2代 主动降噪 真无线蓝牙耳机 迷你入耳式手机耳机"; ObjectID = "PXP-h4-2XG"; */
+"PXP-h4-2XG.text" = "XIAOMI블루투스 헤드셋 Air2 세대 블루투스 헤드셋 Air2 세대 액티브 노이즈 감소 진정한 무선 블루투스 헤드셋 미니 인이어 폰 헤드셋";
+
+/* Class = "UILabel"; text = "智能合约"; ObjectID = "PcO-nK-bcY"; */
+"PcO-nK-bcY.text" = "X-Trade";
+
+/* Class = "UILabel"; text = "今日收益"; ObjectID = "REs-8h-pYg"; */
+"REs-8h-pYg.text" = "오늘의 실적";
+
+/* Class = "UILabel"; text = "白色X1"; ObjectID = "RSp-Ay-er7"; */
+"RSp-Ay-er7.text" = "하얀X1";
+
+/* Class = "UILabel"; text = "代数收益"; ObjectID = "Rsj-i2-Y0f"; */
+"Rsj-i2-Y0f.text" = "대수 이득";
+
+/* Class = "UILabel"; text = "买入"; ObjectID = "Sgm-Gv-R3i"; */
+"Sgm-Gv-R3i.text" = "구입";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "TbS-zH-ojG"; */
+"TbS-zH-ojG.placeholder" = "휴대폰 번호를 입력하십시오.";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "Twh-7v-D55"; */
+"Twh-7v-D55.text" = "≈$0";
+
+/* Class = "UILabel"; text = "交易密码"; ObjectID = "Ue6-LI-1mr"; */
+"Ue6-LI-1mr.text" = "트랜잭션 암호";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "Ug0-0f-4Xu"; */
+"Ug0-0f-4Xu.text" = "≈$0";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "WPI-Sz-fQ9"; */
+"WPI-Sz-fQ9.text" = "≈$0";
+
+/* Class = "UILabel"; text = "$399.00"; ObjectID = "WSR-IS-oPT"; */
+"WSR-IS-oPT.text" = "$399.00";
+
+/* Class = "UILabel"; text = "初级会员"; ObjectID = "XWR-VT-n1q"; */
+"XWR-VT-n1q.text" = "주니어 회원";
+
+/* Class = "UILabel"; text = "汇率"; ObjectID = "Xcy-W6-hFV"; */
+"Xcy-W6-hFV.text" = "환율";
+
+/* Class = "UILabel"; text = "×1"; ObjectID = "YGZ-TS-2zn"; */
+"YGZ-TS-2zn.text" = "×1";
+
+/* Class = "UILabel"; text = "生态佣金收益"; ObjectID = "YKf-Pe-Si6"; */
+"YKf-Pe-Si6.text" = "에코 커미션 수입";
+
+/* Class = "UILabel"; text = "买家留言"; ObjectID = "Zo3-AM-5CN"; */
+"Zo3-AM-5CN.text" = "발언";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "a1v-Zp-l5x"; */
+"a1v-Zp-l5x.text" = "≈$0";
+
+/* Class = "UIButton"; normalTitle = "现在购买"; ObjectID = "aCn-4z-GOy"; */
+"aCn-4z-GOy.normalTitle" = "지금 구매하기";
+
+/* Class = "UILabel"; text = "总投资"; ObjectID = "aMi-vh-y0M"; */
+"aMi-vh-y0M.text" = "총 투자액";
+
+/* Class = "UILabel"; text = "运费"; ObjectID = "cfY-3L-LWs"; */
+"cfY-3L-LWs.text" = "배송";
+
+/* Class = "UILabel"; text = "发货"; ObjectID = "dF8-XT-U0j"; */
+"dF8-XT-U0j.text" = "배달";
+
+/* Class = "UIButton"; normalTitle = "已完成"; ObjectID = "dTn-qi-fzD"; */
+"dTn-qi-fzD.normalTitle" = "완료";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "dVI-Cc-hUd"; */
+"dVI-Cc-hUd.text" = "≈$0";
+
+/* Class = "UILabel"; text = "可用余额：0"; ObjectID = "eKG-dw-cvn"; */
+"eKG-dw-cvn.text" = "완료：0";
+
+/* Class = "UILabel"; text = "商城"; ObjectID = "fSJ-3h-iQ5"; */
+"fSJ-3h-iQ5.text" = "X-Mall";
+
+/* Class = "UILabel"; text = "快递：0.00"; ObjectID = "fba-Hi-bxa"; */
+"fba-Hi-bxa.text" = "익스프레스：0.00";
+
+/* Class = "UILabel"; text = "合计："; ObjectID = "heN-os-f4s"; */
+"heN-os-f4s.text" = "合计：";
+
+/* Class = "UILabel"; text = "邮政编码"; ObjectID = "hkk-I6-SpH"; */
+"hkk-I6-SpH.text" = "우편번호";
+
+/* Class = "UILabel"; text = "商品金额"; ObjectID = "hlv-wL-ecm"; */
+"hlv-wL-ecm.text" = "상품의 양";
+
+/* Class = "UILabel"; text = "收货人"; ObjectID = "jMK-4r-CfM"; */
+"jMK-4r-CfM.text" = "수취인";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "ji8-ts-9QX"; */
+"ji8-ts-9QX.text" = "통화 선택";
+
+/* Class = "UILabel"; text = "详细地址"; ObjectID = "jjo-6Q-ZV1"; */
+"jjo-6Q-ZV1.text" = "자세한 주소";
+
+/* Class = "UIButton"; normalTitle = "兑换"; ObjectID = "jpF-eG-awN"; */
+"jpF-eG-awN.normalTitle" = "Exchange";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "kjp-gE-lV1"; */
+"kjp-gE-lV1.text" = "≈$0";
+
+/* Class = "UILabel"; text = "团队总值"; ObjectID = "l0v-Yo-Ugp"; */
+"l0v-Yo-Ugp.text" = "총 팀 가치";
+
+/* Class = "UILabel"; text = "收益"; ObjectID = "lQy-xK-nwG"; */
+"lQy-xK-nwG.text" = "소득";
+
+/* Class = "UILabel"; text = "≈0.00001 BTC"; ObjectID = "lav-tp-9P2"; */
+"lav-tp-9P2.text" = "≈0.00001 BTC";
+
+/* Class = "UILabel"; text = "≈$7000.00"; ObjectID = "lbR-QX-vdl"; */
+"lbR-QX-vdl.text" = "≈$7000.00";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "mGS-as-Amh"; */
+"mGS-as-Amh.text" = "≈$0";
+
+/* Class = "UIButton"; normalTitle = "立即投资"; ObjectID = "mVL-T5-KOp"; */
+"mVL-T5-KOp.normalTitle" = "지금 투자하기";
+
+/* Class = "UILabel"; text = "小米蓝牙耳机 Air2代 蓝牙耳机 Air2代 主动降噪 真无线蓝牙耳机 迷你入耳式手机耳机"; ObjectID = "mcy-na-Hkk"; */
+"mcy-na-Hkk.text" = "XIAOMI블루투스 헤드셋 Air2 세대 블루투스 헤드셋 Air2 세대 액티브 노이즈 감소 진정한 무선 블루투스 헤드셋 미니 인이어 폰 헤드셋";
+
+/* Class = "UILabel"; text = "团队总人数"; ObjectID = "miS-7c-Kpm"; */
+"miS-7c-Kpm.text" = "팀 멤버";
+
+/* Class = "UIButton"; normalTitle = "客服"; ObjectID = "oSV-nO-142"; */
+"oSV-nO-142.normalTitle" = "고객";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "obT-jy-bx1"; */
+"obT-jy-bx1.text" = "≈$0";
+
+/* Class = "UILabel"; text = "手续费"; ObjectID = "oec-Us-9lW"; */
+"oec-Us-9lW.text" = "수수료";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "p43-6a-4Zg"; */
+"p43-6a-4Zg.text" = "수";
+
+/* Class = "UILabel"; text = "团队今日总收益"; ObjectID = "pRV-Tq-cZq"; */
+"pRV-Tq-cZq.text" = "오늘 팀의 총 수입";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "pgS-Ql-QMa"; */
+"pgS-Ql-QMa.text" = "≈$0";
+
+/* Class = "UITextField"; placeholder = "如街道、门牌号、小区、楼栋号、单元室等"; ObjectID = "puh-E5-iN4"; */
+"puh-E5-iN4.placeholder" = "거리, 집 번호, 커뮤니티, 건물 번호, 단위 실 등";
+
+/* Class = "UILabel"; text = "金额：399.00"; ObjectID = "pzx-z2-jNF"; */
+"pzx-z2-jNF.text" = "금액：399.00";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "q1X-DW-LGR"; */
+"q1X-DW-LGR.text" = "≈$0";
+
+/* Class = "UITextField"; placeholder = "选填：填写内容先与商家进行协商确认"; ObjectID = "trM-PL-H3P"; */
+"trM-PL-H3P.placeholder" = "선택 사항 채우기: 먼저 판매자와 함께 콘텐츠를 입력하여 확인을 협상합니다.";
+
+/* Class = "UILabel"; text = "配送服务"; ObjectID = "uVp-8Q-NHs"; */
+"uVp-8Q-NHs.text" = "배달 서비스";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "ua5-Qc-mVI"; */
+"ua5-Qc-mVI.text" = "≈$0";
+
+/* Class = "UIButton"; normalTitle = "BTC"; ObjectID = "ufN-0j-60G"; */
+"ufN-0j-60G.normalTitle" = "BTC";
+
+/* Class = "UILabel"; text = "加权分红"; ObjectID = "wEJ-wC-yV2"; */
+"wEJ-wC-yV2.text" = "가중배당";
+
+/* Class = "UILabel"; text = "团队合约"; ObjectID = "wRh-BF-CFr"; */
+"wRh-BF-CFr.text" = "팀 계약";
+
+/* Class = "UILabel"; text = "总收益"; ObjectID = "xkU-Bq-gND"; */
+"xkU-Bq-gND.text" = "총 수익";
+
+/* Class = "UITextField"; placeholder = "输入数量"; ObjectID = "yAj-tz-XBi"; */
+"yAj-tz-XBi.placeholder" = "입력 수";
+
+/* Class = "UILabel"; text = "游戏"; ObjectID = "yui-8C-lxe"; */
+"yui-8C-lxe.text" = "X-Game";
+
+/* Class = "UILabel"; text = "可用余额：10ETH"; ObjectID = "zNj-D7-9bo"; */
+"zNj-D7-9bo.text" = "사용 가능한 잔액：10ETH";
+
+/* Class = "UILabel"; text = "≈$0"; ObjectID = "zQa-I9-QLA"; */
+"zQa-I9-QLA.text" = "≈$0";

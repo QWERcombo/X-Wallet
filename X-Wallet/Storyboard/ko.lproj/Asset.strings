@@ -1,0 +1,135 @@
+
+/* Class = "UIButton"; normalTitle = "提币"; ObjectID = "14N-Uc-zh9"; */
+"14N-Uc-zh9.normalTitle" = "동전";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "1En-cL-gZy"; */
+"1En-cL-gZy.normalTitle" = "인증 코드 받기";
+
+/* Class = "UIButton"; normalTitle = "复制地址"; ObjectID = "1F2-cx-hvD"; */
+"1F2-cx-hvD.normalTitle" = "복사";
+
+/* Class = "UITextField"; placeholder = "提币或粘贴地址"; ObjectID = "1Jv-yB-B6L"; */
+"1Jv-yB-B6L.placeholder" = "동전 리프팅 또는 붙여넣기주소";
+
+/* Class = "UILabel"; text = "ETH"; ObjectID = "1j3-pF-8dc"; */
+"1j3-pF-8dc.text" = "ETH";
+
+/* Class = "UILabel"; text = "资金密码"; ObjectID = "2aw-XD-sJe"; */
+"2aw-XD-sJe.text" = "트랜잭션 암호";
+
+/* Class = "UILabel"; text = "1.禁止向X代币地址充值除X代币之外的资产，任何充入X代币的非X代币资产将不可找回。\n2.使用X代币地址充值需要2个网络确认才能到账，使用站内间转账无需网络确认，可以实时到账。"; ObjectID = "3tr-bP-Xm2"; */
+"3tr-bP-Xm2.text" = "1. X 토큰 주소에서 X 토큰 이외의 자산을 위로 하는 것은 금지되어 있으며 X 토큰으로 채워진   X가 아닌 토큰 자산은 복구되지 않습니다. \n2.x 토큰 주소를 사용하여 충전하려면 2개의 네트워크 확인이 필요하며, 역 내 전송을 통해 네트워크 확인이 필요하지 않으며 실시간으로 연락할 수 있습니다. ";
+
+/* Class = "UILabel"; text = "X代币 "; ObjectID = "3zo-RN-luy"; */
+"3zo-RN-luy.text" = "X";
+
+/* Class = "UIButton"; normalTitle = "使用教程"; ObjectID = "4S6-pX-Gv2"; */
+"4S6-pX-Gv2.normalTitle" = "자습서";
+
+/* Class = "UILabel"; text = "提币地址"; ObjectID = "9Cs-u2-iZr"; */
+"9Cs-u2-iZr.text" = "동전 주소";
+
+/* Class = "UIButton"; normalTitle = "保存二维码至相册"; ObjectID = "9ig-fT-wfE"; */
+"9ig-fT-wfE.normalTitle" = "앨범에 QR 코드 저장";
+
+/* Class = "UIButton"; normalTitle = "合约"; ObjectID = "E4I-Od-U35"; */
+"E4I-Od-U35.normalTitle" = "X-Trade";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "ECA-uT-ojP"; */
+"ECA-uT-ojP.placeholder" = "확인 코드를 입력하십시오.";
+
+/* Class = "UILabel"; text = "明细"; ObjectID = "Iua-0g-rH4"; */
+"Iua-0g-rH4.text" = "세부 정보";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "JID-yI-Wha"; */
+"JID-yI-Wha.text" = "통화 선택";
+
+/* Class = "UILabel"; text = "≈$1,234.00"; ObjectID = "LZ8-et-2cZ"; */
+"LZ8-et-2cZ.text" = "≈$1,234.00";
+
+/* Class = "UILabel"; text = "资产列表"; ObjectID = "NDD-7H-Axi"; */
+"NDD-7H-Axi.text" = "자산 목록";
+
+/* Class = "UITextField"; placeholder = "请输入资金密码"; ObjectID = "Oa9-kz-RWI"; */
+"Oa9-kz-RWI.placeholder" = "돈 암호를 입력하십시오.";
+
+/* Class = "UILabel"; text = "手续费（0.00）"; ObjectID = "OlP-a6-fds"; */
+"OlP-a6-fds.text" = "수수료（0.00）";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "PXx-jx-ujO"; */
+"PXx-jx-ujO.text" = "수";
+
+/* Class = "UILabel"; text = "可用：18.00"; ObjectID = "SQc-Ad-vng"; */
+"SQc-Ad-vng.text" = "유효한：18.00";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "SyW-WD-qcu"; */
+"SyW-WD-qcu.text" = "통화 선택";
+
+/* Class = "UILabel"; text = "充值须知"; ObjectID = "U0U-TU-stW"; */
+"U0U-TU-stW.text" = "재충전통지";
+
+/* Class = "UILabel"; text = "可用0.000004X代币"; ObjectID = "Unn-da-EDK"; */
+"Unn-da-EDK.text" = "유효한0.000004X토큰";
+
+/* Class = "UILabel"; text = "正在搜索X-KEY"; ObjectID = "W3p-NB-CeJ"; */
+"W3p-NB-CeJ.text" = "검색X-KEY";
+
+/* Class = "UILabel"; text = "0SDIACJISFscmxiccu8svus8xvyssd023sca8dysx7yc8a"; ObjectID = "acT-uM-Dto"; */
+"acT-uM-Dto.text" = "0SDIACJISFscmxiccu8svus8xvyssd023sca8dysx7yc8a";
+
+/* Class = "UILabel"; text = "X代币"; ObjectID = "bWV-rH-Lx7"; */
+"bWV-rH-Lx7.text" = "X토큰";
+
+/* Class = "UILabel"; text = "总资产折合"; ObjectID = "ebD-F1-DkS"; */
+"ebD-F1-DkS.text" = "총 자산";
+
+/* Class = "UILabel"; text = "$1,234.00"; ObjectID = "eeO-8M-sLb"; */
+"eeO-8M-sLb.text" = "$1,234.00";
+
+/* Class = "UIButton"; normalTitle = "| 全部"; ObjectID = "eww-8p-0ml"; */
+"eww-8p-0ml.normalTitle" = "| 모든";
+
+/* Class = "UIButton"; normalTitle = "闪兑"; ObjectID = "hPh-ZZ-Lfz"; */
+"hPh-ZZ-Lfz.normalTitle" = "Exchange";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "mu0-4D-02n"; */
+"mu0-4D-02n.normalTitle" = "모든";
+
+/* Class = "UILabel"; text = "XCN"; ObjectID = "muc-hI-Ixq"; */
+"muc-hI-Ixq.text" = "XCN";
+
+/* Class = "UILabel"; text = "请将 X-KEY 贴近手机"; ObjectID = "nSR-pv-i6m"; */
+"nSR-pv-i6m.text" = "를 휴대폰 가까이에 두세요.";
+
+/* Class = "UIButton"; normalTitle = "购买X-Key"; ObjectID = "ny2-Hz-43m"; */
+"ny2-Hz-43m.normalTitle" = "구입X-Key";
+
+/* Class = "UILabel"; text = "到账数量"; ObjectID = "ovP-2f-zUW"; */
+"ovP-2f-zUW.text" = "받은 계정 수";
+
+/* Class = "UILabel"; text = "1 XCN≈200 USDT"; ObjectID = "par-yc-ohy"; */
+"par-yc-ohy.text" = "1 XCN≈200 USDT";
+
+/* Class = "UIButton"; normalTitle = "X-WALLET"; ObjectID = "s7N-tj-b6F"; */
+"s7N-tj-b6F.normalTitle" = "X-WALLET";
+
+/* Class = "UIButton"; selectedTitle = "X-WALLET"; ObjectID = "s7N-tj-b6F"; */
+"s7N-tj-b6F.selectedTitle" = "X-WALLET";
+
+/* Class = "UILabel"; text = "XCN"; ObjectID = "sUF-mL-7G6"; */
+"sUF-mL-7G6.text" = "XCN";
+
+/* Class = "UIButton"; normalTitle = "X-KEY"; ObjectID = "sgZ-mH-AW0"; */
+"sgZ-mH-AW0.normalTitle" = "X-KEY";
+
+/* Class = "UIButton"; selectedTitle = "X-KEY"; ObjectID = "sgZ-mH-AW0"; */
+"sgZ-mH-AW0.selectedTitle" = "X-KEY";
+
+/* Class = "UIButton"; normalTitle = "转账"; ObjectID = "vOz-EW-L3B"; */
+"vOz-EW-L3B.normalTitle" = "전송";
+
+/* Class = "UIButton"; normalTitle = "购买X-Key"; ObjectID = "wbB-n0-Xf0"; */
+"wbB-n0-Xf0.normalTitle" = "구입X-Key";
+
+/* Class = "UIButton"; normalTitle = "购买X-KEY"; ObjectID = "xLK-dq-4ue"; */
+"xLK-dq-4ue.normalTitle" = "구입X-KEY";

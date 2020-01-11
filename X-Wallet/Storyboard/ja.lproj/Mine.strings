@@ -1,0 +1,191 @@
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "0Lc-8w-rbC"; */
+"0Lc-8w-rbC.normalTitle" = "全部";
+
+/* Class = "UILabel"; text = "设置头像"; ObjectID = "1gt-Ix-yuX"; */
+"1gt-Ix-yuX.text" = "プロフィール画像の設定";
+
+/* Class = "UILabel"; text = "UID"; ObjectID = "2R4-hZ-M5l"; */
+"2R4-hZ-M5l.text" = "UID";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "2az-ID-pD1"; */
+"2az-ID-pD1.normalTitle" = "投稿";
+
+/* Class = "UILabel"; text = "语言"; ObjectID = "3SF-bg-4Jo"; */
+"3SF-bg-4Jo.text" = "言語";
+
+/* Class = "UITextField"; placeholder = "请输入原安全密码"; ObjectID = "5Vk-fD-WAG"; */
+"5Vk-fD-WAG.placeholder" = "古いパスワードを入力してください";
+
+/* Class = "UILabel"; text = "服务协议与隐私条款"; ObjectID = "6I0-au-LzM"; */
+"6I0-au-LzM.text" = "プライバシーに関する声明";
+
+/* Class = "UIButton"; normalTitle = "邀请好友"; ObjectID = "6Qt-fT-Z7w"; */
+"6Qt-fT-Z7w.normalTitle" = "友人を招待する";
+
+/* Class = "UILabel"; text = "邀请好友"; ObjectID = "QXI-RX-AI2"; */
+"QXI-RX-AI2.text" = "友人を招待する";
+
+/* Class = "UILabel"; text = "复制邀请码"; ObjectID = "Z9R-0Q-SUB"; */
+"Z9R-0Q-SUB.text" = "招待コードのコピーに";
+
+/* Class = "UILabel"; text = "我的订单"; ObjectID = "6ce-Cr-7ac"; */
+"6ce-Cr-7ac.text" = "私の注文";
+
+/* Class = "UILabel"; text = "扫描二维码注册并下载应用"; ObjectID = "9Vp-Ut-asX"; */
+"9Vp-Ut-asX.text" = ">QRコードの値を表示する";
+
+/* Class = "UILabel"; text = "圣诞"; ObjectID = "9sB-eV-GKX"; */
+"9sB-eV-GKX.text" = "クリスマス";
+
+/* Class = "UILabel"; text = "收益明细"; ObjectID = "AWf-vQ-O3e"; */
+"AWf-vQ-O3e.text" = "収益の内訳";
+
+/* Class = "UILabel"; text = "分享朋友圈"; ObjectID = "CA9-xV-nf1"; */
+"CA9-xV-nf1.text" = "共有Moments";
+
+/* Class = "UIButton"; normalTitle = "任务"; ObjectID = "Ess-cd-cp5"; */
+"Ess-cd-cp5.normalTitle" = "任務";
+
+/* Class = "UILabel"; text = "简体中文"; ObjectID = "Eyk-cF-IBd"; */
+"Eyk-cF-IBd.text" = "中文";
+
+/* Class = "UILabel"; text = "请设置2-25个字符，可由中英文、数字组成"; ObjectID = "Fz0-IP-lxF"; */
+"Fz0-IP-lxF.text" = "请文字、数字で構成される2 ~ 25文字を設定します。";
+
+/* Class = "UILabel"; text = "11111"; ObjectID = "IPW-Jz-wVV"; */
+"IPW-Jz-wVV.text" = "11111";
+
+/* Class = "UILabel"; text = "我的反馈"; ObjectID = "Ken-i9-2Tn"; */
+"Ken-i9-2Tn.text" = "私の意見";
+
+/* Class = "UILabel"; text = "176****7264"; ObjectID = "Lxl-cb-ihU"; */
+"Lxl-cb-ihU.text" = "176****7264";
+
+/* Class = "UILabel"; text = "团队总人数"; ObjectID = "Mvn-5U-biW"; */
+"Mvn-5U-biW.text" = "チームの総数";
+
+/* Class = "UILabel"; text = "原安全密码"; ObjectID = "N6C-rl-3C2"; */
+"N6C-rl-3C2.text" = "古いパスワード";
+
+/* Class = "UILabel"; text = "邀请码："; ObjectID = "QxD-Gs-T5x"; */
+"QxD-Gs-T5x.text" = "招待コード：";
+
+/* Class = "UILabel"; text = "初级节点"; ObjectID = "Tj9-te-iy1"; */
+"Tj9-te-iy1.text" = "プライマリ ノード";
+
+/* Class = "UIButton"; normalTitle = "团队"; ObjectID = "UDj-ON-Z9G"; */
+"UDj-ON-Z9G.normalTitle" = "チーム";
+
+/* Class = "UIButton"; normalTitle = "直推人数"; ObjectID = "UVt-rJ-LYn"; */
+"UVt-rJ-LYn.normalTitle" = "ストレートプッシュ数";
+
+/* Class = "UILabel"; text = "复制链接"; ObjectID = "Ugu-OJ-S0a"; */
+"Ugu-OJ-S0a.text" = "リンクのコピー";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VJJ-rr-he9"; */
+"VJJ-rr-he9.text" = "Label";
+
+/* Class = "UILabel"; text = "总收益"; ObjectID = "VLq-Cn-MhO"; */
+"VLq-Cn-MhO.text" = "総利益";
+
+/* Class = "UIButton"; normalTitle = "待收货"; ObjectID = "WsB-MU-0Oj"; */
+"WsB-MU-0Oj.normalTitle" = "入庫予定";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "aGt-mM-hjp"; */
+"aGt-mM-hjp.normalTitle" = "確認コードの取得";
+
+/* Class = "UILabel"; text = "常见问题"; ObjectID = "bVx-8b-AtT"; */
+"bVx-8b-AtT.text" = "に関するFAQ ";
+
+/* Class = "UIButton"; normalTitle = "团队人数"; ObjectID = "drq-64-3CU"; */
+"drq-64-3CU.normalTitle" = "チーム数";
+
+/* Class = "UILabel"; text = "保存图片"; ObjectID = "fcm-hL-0JW"; */
+"fcm-hL-0JW.text" = "画像の保存";
+
+/* Class = "UILabel"; text = "添加图片（最多添加三张，可不添加）"; ObjectID = "feQ-ie-wiT"; */
+"feQ-ie-wiT.text" = "画像を追加する (最大 3 つの画像を追加しますが、追加しない)";
+
+/* Class = "UILabel"; text = "版本号"; ObjectID = "gxe-0R-OVt"; */
+"gxe-0R-OVt.text" = "版";
+
+/* Class = "UILabel"; text = "1.0.0"; ObjectID = "h3a-Wp-NLM"; */
+"h3a-Wp-NLM.text" = "1.0.0";
+
+/* Class = "UITextField"; placeholder = "请输入标题"; ObjectID = "jgg-9f-yRE"; */
+"jgg-9f-yRE.placeholder" = "タイトルの入力";
+
+/* Class = "UITextField"; placeholder = "请设置新安全密码"; ObjectID = "jn2-Pm-zIY"; */
+"jn2-Pm-zIY.placeholder" = "新しいセキュリティ パスワードの設定";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "kef-5f-Tnh"; */
+"kef-5f-Tnh.placeholder" = "確認コードの入力";
+
+/* Class = "UILabel"; text = "1111"; ObjectID = "l67-nB-9RY"; */
+"l67-nB-9RY.text" = "1111";
+
+/* Class = "UILabel"; text = "我的主题"; ObjectID = "lDY-F8-odC"; */
+"lDY-F8-odC.text" = "テーマ";
+
+/* Class = "UILabel"; text = "扫描二维码，下载客户端"; ObjectID = "m8y-cV-zvh"; */
+"m8y-cV-zvh.text" = "ダウンロードするスキャン";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mds-5Z-sFX"; */
+"mds-5Z-sFX.text" = "Label";
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "ndl-ti-uzg"; */
+"ndl-ti-uzg.text" = "ニックネーム";
+
+/* Class = "UILabel"; text = "修改安全密码"; ObjectID = "ngU-x9-Gad"; */
+"ngU-x9-Gad.text" = "セキュリティ パスワードの変更";
+
+/* Class = "UILabel"; text = "验证码"; ObjectID = "oUa-MY-3Vb"; */
+"oUa-MY-3Vb.text" = "確認コード";
+
+/* Class = "UIButton"; normalTitle = "代付款"; ObjectID = "od2-F2-4IO"; */
+"od2-F2-4IO.normalTitle" = "代理支払";
+
+/* Class = "UITextField"; placeholder = "请输入昵称"; ObjectID = "odp-Xh-M0h"; */
+"odp-Xh-M0h.placeholder" = "ニックネームの入力";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "pQL-U9-fWb"; */
+"pQL-U9-fWb.normalTitle" = "投稿";
+
+/* Class = "UILabel"; text = "ID:15841d"; ObjectID = "qon-DO-Sg2"; */
+"qon-DO-Sg2.text" = "ID:15841d";
+
+/* Class = "UILabel"; text = "今日收益"; ObjectID = "rmM-Ca-iQg"; */
+"rmM-Ca-iQg.text" = "今日の収益";
+
+/* Class = "UILabel"; text = "请输入反馈信息，我们将及时进行改进。"; ObjectID = "rw4-3t-kIy"; */
+"rw4-3t-kIy.text" = "フィードバック情報を入力し、タイムリーに改善します。";
+
+/* Class = "UILabel"; text = "新安全密码"; ObjectID = "sBS-SD-Q3R"; */
+"sBS-SD-Q3R.text" = "新しいセキュリティ パスワード";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sbM-mf-H4N"; */
+"sbM-mf-H4N.text" = "Label";
+
+/* Class = "UILabel"; text = "团队总有效人数"; ObjectID = "sgL-nU-gxD"; */
+"sgL-nU-gxD.text" = "チームの合計有効人数";
+
+/* Class = "UIButton"; normalTitle = "待发货"; ObjectID = "tFv-j8-agM"; */
+"tFv-j8-agM.normalTitle" = "出荷予定";
+
+/* Class = "UILabel"; text = "http://www.baidu.com"; ObjectID = "tfF-3f-cKg"; */
+"tfF-3f-cKg.text" = "http://www.baidu.com";
+
+/* Class = "UILabel"; text = "标题"; ObjectID = "yRC-Gm-YBf"; */
+"yRC-Gm-YBf.text" = "タイトル";
+
+/* Class = "UILabel"; text = "关于我们"; ObjectID = "yja-Nh-JhO"; */
+"yja-Nh-JhO.text" = "私たちについて";
+
+/* Class = "UILabel"; text = "收益明细"; ObjectID = "ylc-dV-jvf"; */
+"ylc-dV-jvf.text" = "収益の内訳";
+
+/* Class = "UILabel"; text = "好友邀请"; ObjectID = "ymj-a0-IM8"; */
+"ymj-a0-IM8.text" = "フレンドの招待";
+
+/* Class = "UIButton"; normalTitle = "保存并使用"; ObjectID = "zku-zZ-4pK"; */
+"zku-zZ-4pK.normalTitle" = "保存して使用";

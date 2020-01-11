@@ -1,0 +1,19 @@
+# platform :ios, '9.0'
+
+target 'X-Wallet' do
+
+  pod 'AFNetworking'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'DateTools'
+  pod 'Masonry'
+  pod 'JSONModel'
+  pod 'RTRootNavigationController'
+  pod 'ReactiveObjC'
+  pod 'LYEmptyView'
+  pod 'SDCycleScrollView'
+  pod 'WMDragView'
+  pod 'IXColor'
+  
+end

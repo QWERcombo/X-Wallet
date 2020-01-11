@@ -1,0 +1,113 @@
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "2qO-zf-OIb"; */
+"2qO-zf-OIb.normalTitle" = "確認コードの取得";
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "7xH-vY-HNN"; */
+"7xH-vY-HNN.placeholder" = "パスワードの設定";
+
+/* Class = "UITextField"; placeholder = "输入邀请码 (必填)"; ObjectID = "9FT-fU-Fae"; */
+"9FT-fU-Fae.placeholder" = "招待コードの入力(必須)";
+
+/* Class = "UILabel"; text = "验证码已发送至 stella.ham@8mail.com"; ObjectID = "C7p-I7-rW5"; */
+"C7p-I7-rW5.text" = "確認コードが送信されましたstella.ham@8mail.com";
+
+/* Class = "UIButton"; normalTitle = "找回密码"; ObjectID = "D9I-Ar-Yjy"; */
+"D9I-Ar-Yjy.normalTitle" = "パスワードの取得";
+
+/* Class = "UITextField"; placeholder = "请再次填写新支付密码"; ObjectID = "F9Q-D0-GFp"; */
+"F9Q-D0-GFp.placeholder" = "新しい支払いパスワードをもう一度入力してください";
+
+/* Class = "UIButton"; normalTitle = "切换到邮箱注册"; ObjectID = "HLr-Ai-5n0"; */
+"HLr-Ai-5n0.normalTitle" = "電子メール";
+
+/* Class = "UITextField"; placeholder = "请填写手机号码"; ObjectID = "HgX-ye-1WL"; */
+"HgX-ye-1WL.placeholder" = "携帯電話番号を入力してください";
+
+/* Class = "UITextField"; placeholder = "请再次填写新密码"; ObjectID = "IIh-TE-DXO"; */
+"IIh-TE-DXO.placeholder" = "新しいパスワードをもう一度入力してください";
+
+/* Class = "UITextField"; placeholder = "请填写新支付密码"; ObjectID = "IuY-nF-NVO"; */
+"IuY-nF-NVO.placeholder" = "新しい支払いパスワードを入力する";
+
+/* Class = "UITextField"; placeholder = "请填写新密码"; ObjectID = "M7U-Kd-DoE"; */
+"M7U-Kd-DoE.placeholder" = "新しいパスワードを入力する";
+
+/* Class = "UITextField"; placeholder = "请填写验证码"; ObjectID = "Rzh-rZ-Ygi"; */
+"Rzh-rZ-Ygi.placeholder" = "確認コードの入力";
+
+/* Class = "UIButton"; normalTitle = "中国 +86"; ObjectID = "SPA-D6-wnF"; */
+"SPA-D6-wnF.normalTitle" = "中国 +86";
+
+/* Class = "UILabel"; text = "X-WALLET登录"; ObjectID = "TVe-wc-aNK"; */
+"TVe-wc-aNK.text" = "X-WALLETログイン
+";
+
+/* Class = "UIButton"; normalTitle = "切换语言"; ObjectID = "UFq-PE-qBr"; */
+"UFq-PE-qBr.normalTitle" = "言語";
+
+/* Class = "UILabel"; text = "8-20个字符（字母，数字和符号的组合），字母必须同时包含大写和小写字母"; ObjectID = "UxB-fD-dhm"; */
+"UxB-fD-dhm.text" = "8 -20文字 (文字、数字、および記号の組み合わせ) は、大文字と小文字の両方を含める必要があります。";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "WsP-Qy-FEo"; */
+"WsP-Qy-FEo.normalTitle" = "確認コードの送信";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "ZJX-CN-8py"; */
+"ZJX-CN-8py.normalTitle" = "キャンセル";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "a1M-1X-qvJ"; */
+"a1M-1X-qvJ.normalTitle" = "次に
+";
+
+/* Class = "UIButton"; normalTitle = "还没有账号？ 注册"; ObjectID = "bRQ-BC-ak5"; */
+"bRQ-BC-ak5.normalTitle" = "アカウントなし?登録";
+
+/* Class = "UIButton"; normalTitle = "忘记密码？"; ObjectID = "cFC-86-Wh2"; */
+"cFC-86-Wh2.normalTitle" = "パスワードを忘れる？";
+
+/* Class = "UIButton"; normalTitle = "已有账号？ 登录"; ObjectID = "cty-bh-3cd"; */
+"cty-bh-3cd.normalTitle" = "アカウントをお持ちですか?ログイン";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "dEd-Fm-qRE"; */
+"dEd-Fm-qRE.placeholder" = "アカウントの入力";
+
+/* Class = "UIButton"; normalTitle = "我确认无法更改邀请码"; ObjectID = "dqT-1x-YrS"; */
+"dqT-1x-YrS.normalTitle" = "招待コードを変更できないことを確認する";
+
+/* Class = "UILabel"; text = "设置登录密码"; ObjectID = "eIl-p7-fbc"; */
+"eIl-p7-fbc.text" = "ログインパスワードの設定";
+
+/* Class = "UIButton"; normalTitle = "没收到验证码？重新发送"; ObjectID = "eMY-kD-Ha2"; */
+"eMY-kD-Ha2.normalTitle" = "確認コードに没収? 再送";
+
+/* Class = "UILabel"; text = "手机注册"; ObjectID = "j4P-1E-4hE"; */
+"j4P-1E-4hE.text" = "携帯電話登録";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "jRW-Vo-riy"; */
+"jRW-Vo-riy.text" = "パスワードを忘れる";
+
+/* Class = "UITextField"; placeholder = "请填写密码"; ObjectID = "mS3-KC-2HC"; */
+"mS3-KC-2HC.placeholder" = "パスワードの入力";
+
+/* Class = "UITextField"; placeholder = "请填写手机号码或邮箱"; ObjectID = "pBO-nv-9aU"; */
+"pBO-nv-9aU.placeholder" = "携帯電話番号やメールを入力してください";
+
+/* Class = "UITextField"; placeholder = "再次输入"; ObjectID = "tme-Rr-eaH"; */
+"tme-Rr-eaH.placeholder" = "もう一度入力してください";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "uH3-al-oqt"; */
+"uH3-al-oqt.normalTitle" = "次に";
+
+/* Class = "UILabel"; text = "输入验证码"; ObjectID = "vLU-dN-Gqa"; */
+"vLU-dN-Gqa.text" = "確認コードの入力";
+
+/* Class = "UITextField"; placeholder = "请填写验证码"; ObjectID = "xOg-ED-DR0"; */
+"xOg-ED-DR0.placeholder" = "確認コードを入力してください";
+
+/* Class = "UIButton"; normalTitle = "切换到邮箱"; ObjectID = "xYD-6U-93l"; */
+"xYD-6U-93l.normalTitle" = "メールに切り替える";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "xwP-Kx-cTk"; */
+"xwP-Kx-cTk.normalTitle" = "ログイン";
+
+/* Class = "UIButton"; normalTitle = "中国 +86"; ObjectID = "xxB-bn-Shz"; */
+"xxB-bn-Shz.normalTitle" = "中国 +86";

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CancelContractView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MkG-wX-T7i">
+                    <rect key="frame" x="37.5" y="203.5" width="300" height="260"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cancel_bg" translatesAutoresizingMaskIntoConstraints="NO" id="FlI-Zg-rJW">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="260"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否取消合约？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8g-yo-ptb">
+                            <rect key="frame" x="89.5" y="100" width="121.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提前取消将收取投资额的" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cR5-fl-TGu">
+                            <rect key="frame" x="35" y="141" width="230" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.33725490200000002" green="0.33725490200000002" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l1i-73-fno">
+                            <rect key="frame" x="0.0" y="209" width="300" height="51"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9V-iW-5wv">
+                                    <rect key="frame" x="0.0" y="1" width="149.5" height="50"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <state key="normal" title="取消">
+                                        <color key="titleColor" red="0.33725490200000002" green="0.33725490200000002" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="cancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="0x7-Rr-wax"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pn-BC-9yn">
+                                    <rect key="frame" x="150.5" y="1" width="149.5" height="50"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <state key="normal" title="确认">
+                                        <color key="titleColor" red="0.46666666670000001" green="0.3803921569" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="done:" destination="iN0-l3-epB" eventType="touchUpInside" id="bAw-8N-qNc"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="7pn-BC-9yn" secondAttribute="bottom" id="5uo-w4-t1h"/>
+                                <constraint firstAttribute="trailing" secondItem="7pn-BC-9yn" secondAttribute="trailing" id="Afv-zo-ewO"/>
+                                <constraint firstItem="7pn-BC-9yn" firstAttribute="top" secondItem="l1i-73-fno" secondAttribute="top" constant="1" id="UMX-76-NVC"/>
+                                <constraint firstItem="7pn-BC-9yn" firstAttribute="width" secondItem="k9V-iW-5wv" secondAttribute="width" id="Ye8-m2-XvL"/>
+                                <constraint firstItem="7pn-BC-9yn" firstAttribute="leading" secondItem="k9V-iW-5wv" secondAttribute="trailing" constant="1" id="b7k-wz-iEW"/>
+                                <constraint firstItem="k9V-iW-5wv" firstAttribute="leading" secondItem="l1i-73-fno" secondAttribute="leading" id="cjg-Oi-XVx"/>
+                                <constraint firstItem="k9V-iW-5wv" firstAttribute="top" secondItem="l1i-73-fno" secondAttribute="top" constant="1" id="pbo-JJ-b1K"/>
+                                <constraint firstAttribute="height" constant="51" id="ppE-jY-Qsg"/>
+                                <constraint firstItem="7pn-BC-9yn" firstAttribute="height" secondItem="k9V-iW-5wv" secondAttribute="height" id="s8P-vs-y1s"/>
+                                <constraint firstAttribute="bottom" secondItem="k9V-iW-5wv" secondAttribute="bottom" id="uc3-zj-pM2"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="cR5-fl-TGu" secondAttribute="trailing" constant="35" id="0pU-ie-UXd"/>
+                        <constraint firstItem="cR5-fl-TGu" firstAttribute="leading" secondItem="MkG-wX-T7i" secondAttribute="leading" constant="35" id="0pi-40-KZg"/>
+                        <constraint firstItem="FlI-Zg-rJW" firstAttribute="top" secondItem="MkG-wX-T7i" secondAttribute="top" id="8Ww-7g-3nB"/>
+                        <constraint firstAttribute="width" constant="300" id="BCq-mk-zEV"/>
+                        <constraint firstAttribute="trailing" secondItem="FlI-Zg-rJW" secondAttribute="trailing" id="CF0-fm-gWF"/>
+                        <constraint firstItem="U8g-yo-ptb" firstAttribute="top" secondItem="MkG-wX-T7i" secondAttribute="top" constant="100" id="Rt2-iL-GmT"/>
+                        <constraint firstItem="l1i-73-fno" firstAttribute="leading" secondItem="MkG-wX-T7i" secondAttribute="leading" id="aCf-uC-JpK"/>
+                        <constraint firstAttribute="bottom" secondItem="l1i-73-fno" secondAttribute="bottom" id="bPi-EI-n8w"/>
+                        <constraint firstAttribute="height" constant="260" id="dpI-M2-6jy"/>
+                        <constraint firstItem="cR5-fl-TGu" firstAttribute="top" secondItem="U8g-yo-ptb" secondAttribute="bottom" constant="20" id="iQX-Ck-FYO"/>
+                        <constraint firstItem="U8g-yo-ptb" firstAttribute="centerX" secondItem="MkG-wX-T7i" secondAttribute="centerX" id="j8l-tk-ERF"/>
+                        <constraint firstItem="FlI-Zg-rJW" firstAttribute="leading" secondItem="MkG-wX-T7i" secondAttribute="leading" id="mOd-qC-yDj"/>
+                        <constraint firstItem="cR5-fl-TGu" firstAttribute="centerX" secondItem="MkG-wX-T7i" secondAttribute="centerX" id="nmv-so-Ax4"/>
+                        <constraint firstAttribute="trailing" secondItem="l1i-73-fno" secondAttribute="trailing" id="vAG-A9-7UP"/>
+                        <constraint firstAttribute="bottom" secondItem="FlI-Zg-rJW" secondAttribute="bottom" id="vcq-Eq-2wf"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="MkG-wX-T7i" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OWU-FZ-9QU"/>
+                <constraint firstItem="MkG-wX-T7i" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cqQ-VQ-QzK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="bgImgv" destination="FlI-Zg-rJW" id="as4-gR-lcR"/>
+                <outlet property="cancelBtn" destination="k9V-iW-5wv" id="1Ho-3o-BFb"/>
+                <outlet property="descLab" destination="cR5-fl-TGu" id="gg7-fD-Ve7"/>
+                <outlet property="doneBtn" destination="7pn-BC-9yn" id="rof-z4-gbr"/>
+                <outlet property="titleLab" destination="U8g-yo-ptb" id="5aU-8s-H5v"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cancel_bg" width="300" height="260"/>
+    </resources>
+</document>

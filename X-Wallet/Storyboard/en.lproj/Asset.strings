@@ -1,0 +1,135 @@
+
+/* Class = "UIButton"; normalTitle = "提币"; ObjectID = "14N-Uc-zh9"; */
+"14N-Uc-zh9.normalTitle" = "Withdrawal";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "1En-cL-gZy"; */
+"1En-cL-gZy.normalTitle" = "SMS code";
+
+/* Class = "UIButton"; normalTitle = "复制地址"; ObjectID = "1F2-cx-hvD"; */
+"1F2-cx-hvD.normalTitle" = "Copied address";
+
+/* Class = "UITextField"; placeholder = "提币或粘贴地址"; ObjectID = "1Jv-yB-B6L"; */
+"1Jv-yB-B6L.placeholder" = "Withdrawal or paste address";
+
+/* Class = "UILabel"; text = "ETH"; ObjectID = "1j3-pF-8dc"; */
+"1j3-pF-8dc.text" = "ETH";
+
+/* Class = "UILabel"; text = "资金密码"; ObjectID = "2aw-XD-sJe"; */
+"2aw-XD-sJe.text" = "security password";
+
+/* Class = "UILabel"; text = "1.禁止向X代币地址充值除X代币之外的资产，任何充入X代币的非X代币资产将不可找回。\n2.使用X代币地址充值需要2个网络确认才能到账，使用站内间转账无需网络确认，可以实时到账。"; ObjectID = "3tr-bP-Xm2"; */
+"3tr-bP-Xm2.text" = "1.Please deposit X only to the address in order to prevent pecuniary loss.。\n2.Requires 2 block confirmation to receive, use transfer within the website for real-time transfer without block confirmation.";
+
+/* Class = "UILabel"; text = "X代币 "; ObjectID = "3zo-RN-luy"; */
+"3zo-RN-luy.text" = "X代币 ";
+
+/* Class = "UIButton"; normalTitle = "使用教程"; ObjectID = "4S6-pX-Gv2"; */
+"4S6-pX-Gv2.normalTitle" = "Tutuorials";
+
+/* Class = "UILabel"; text = "提币地址"; ObjectID = "9Cs-u2-iZr"; */
+"9Cs-u2-iZr.text" = "Withdrawal address ";
+
+/* Class = "UIButton"; normalTitle = "保存二维码至相册"; ObjectID = "9ig-fT-wfE"; */
+"9ig-fT-wfE.normalTitle" = "Saved QR code to album";
+
+/* Class = "UIButton"; normalTitle = "合约"; ObjectID = "E4I-Od-U35"; */
+"E4I-Od-U35.normalTitle" = "X-Trade";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "ECA-uT-ojP"; */
+"ECA-uT-ojP.placeholder" = "SMS code";
+
+/* Class = "UILabel"; text = "明细"; ObjectID = "Iua-0g-rH4"; */
+"Iua-0g-rH4.text" = "Details";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "JID-yI-Wha"; */
+"JID-yI-Wha.text" = "Select";
+
+/* Class = "UILabel"; text = "≈$1,234.00"; ObjectID = "LZ8-et-2cZ"; */
+"LZ8-et-2cZ.text" = "≈$1,234.00";
+
+/* Class = "UILabel"; text = "资产列表"; ObjectID = "NDD-7H-Axi"; */
+"NDD-7H-Axi.text" = "Asset lists";
+
+/* Class = "UITextField"; placeholder = "请输入资金密码"; ObjectID = "Oa9-kz-RWI"; */
+"Oa9-kz-RWI.placeholder" = "Please enter security password";
+
+/* Class = "UILabel"; text = "手续费（0.00）"; ObjectID = "OlP-a6-fds"; */
+"OlP-a6-fds.text" = "handling fee（0.00）";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "PXx-jx-ujO"; */
+"PXx-jx-ujO.text" = "Amount";
+
+/* Class = "UILabel"; text = "可用：18.00"; ObjectID = "SQc-Ad-vng"; */
+"SQc-Ad-vng.text" = "Available：18.00";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "SyW-WD-qcu"; */
+"SyW-WD-qcu.text" = "Select";
+
+/* Class = "UILabel"; text = "充值须知"; ObjectID = "U0U-TU-stW"; */
+"U0U-TU-stW.text" = "Remind";
+
+/* Class = "UILabel"; text = "可用0.000004X代币"; ObjectID = "Unn-da-EDK"; */
+"Unn-da-EDK.text" = "Available0.000004X代币";
+
+/* Class = "UILabel"; text = "正在搜索X-KEY"; ObjectID = "W3p-NB-CeJ"; */
+"W3p-NB-CeJ.text" = "Search for X-KEY";
+
+/* Class = "UILabel"; text = "0SDIACJISFscmxiccu8svus8xvyssd023sca8dysx7yc8a"; ObjectID = "acT-uM-Dto"; */
+"acT-uM-Dto.text" = "0SDIACJISFscmxiccu8svus8xvyssd023sca8dysx7yc8a";
+
+/* Class = "UILabel"; text = "XCN"; ObjectID = "bWV-rH-Lx7"; */
+"bWV-rH-Lx7.text" = "XCN";
+
+/* Class = "UILabel"; text = "总资产折合"; ObjectID = "ebD-F1-DkS"; */
+"ebD-F1-DkS.text" = "Total Asstes";
+
+/* Class = "UILabel"; text = "$1,234.00"; ObjectID = "eeO-8M-sLb"; */
+"eeO-8M-sLb.text" = "$1,234.00";
+
+/* Class = "UIButton"; normalTitle = "| 全部"; ObjectID = "eww-8p-0ml"; */
+"eww-8p-0ml.normalTitle" = "| All";
+
+/* Class = "UIButton"; normalTitle = "闪兑"; ObjectID = "hPh-ZZ-Lfz"; */
+"hPh-ZZ-Lfz.normalTitle" = "Exchange";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "mu0-4D-02n"; */
+"mu0-4D-02n.normalTitle" = "All";
+
+/* Class = "UILabel"; text = "XCN"; ObjectID = "muc-hI-Ixq"; */
+"muc-hI-Ixq.text" = "XCN";
+
+/* Class = "UILabel"; text = "请将 X-KEY 贴近手机"; ObjectID = "nSR-pv-i6m"; */
+"nSR-pv-i6m.text" = "Please Keep X-KEY close to your mobile device ";
+
+/* Class = "UIButton"; normalTitle = "购买X-Key"; ObjectID = "ny2-Hz-43m"; */
+"ny2-Hz-43m.normalTitle" = "Purchase X-Key";
+
+/* Class = "UILabel"; text = "到账数量"; ObjectID = "ovP-2f-zUW"; */
+"ovP-2f-zUW.text" = "amount received";
+
+/* Class = "UILabel"; text = "1 XCN≈200 USDT"; ObjectID = "par-yc-ohy"; */
+"par-yc-ohy.text" = "1 XCN≈200 USDT";
+
+/* Class = "UIButton"; normalTitle = "X-WALLET"; ObjectID = "s7N-tj-b6F"; */
+"s7N-tj-b6F.normalTitle" = "X-WALLET";
+
+/* Class = "UIButton"; selectedTitle = "X-WALLET"; ObjectID = "s7N-tj-b6F"; */
+"s7N-tj-b6F.selectedTitle" = "X-WALLET";
+
+/* Class = "UILabel"; text = "XCN"; ObjectID = "sUF-mL-7G6"; */
+"sUF-mL-7G6.text" = "XCN";
+
+/* Class = "UIButton"; normalTitle = "X-KEY"; ObjectID = "sgZ-mH-AW0"; */
+"sgZ-mH-AW0.normalTitle" = "X-KEY";
+
+/* Class = "UIButton"; selectedTitle = "X-KEY"; ObjectID = "sgZ-mH-AW0"; */
+"sgZ-mH-AW0.selectedTitle" = "X-KEY";
+
+/* Class = "UIButton"; normalTitle = "转账"; ObjectID = "vOz-EW-L3B"; */
+"vOz-EW-L3B.normalTitle" = "Transfer";
+
+/* Class = "UIButton"; normalTitle = "购买X-Key"; ObjectID = "wbB-n0-Xf0"; */
+"wbB-n0-Xf0.normalTitle" = "Purchase X-Key";
+
+/* Class = "UIButton"; normalTitle = "购买X-KEY"; ObjectID = "xLK-dq-4ue"; */
+"xLK-dq-4ue.normalTitle" = "Purchase X-KEY";

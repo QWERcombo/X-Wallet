@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="QuestionCell" rowHeight="238" id="KGk-i7-Jjw" customClass="QuestionCell">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="238"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="238"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1PG-hY-9TW">
+                        <rect key="frame" x="0.0" y="0.0" width="337" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如何避免跑步伤到膝盖？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eb-Fk-4hf">
+                                <rect key="frame" x="50" y="24" width="157.5" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.22745098039215686" green="0.22745098039215686" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="show_down" translatesAutoresizingMaskIntoConstraints="NO" id="u6r-3f-yVt">
+                                <rect key="frame" x="311" y="29.5" width="10" height="6.5"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rkQ-fh-7GL">
+                                <rect key="frame" x="15" y="22.5" width="22" height="20"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="show_tip" translatesAutoresizingMaskIntoConstraints="NO" id="nBd-XA-3MA">
+                                        <rect key="frame" x="0.0" y="0.0" width="22" height="20"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPQ-0q-5V4">
+                                        <rect key="frame" x="0.0" y="0.0" width="22" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="iPQ-0q-5V4" secondAttribute="trailing" id="7GM-iN-3df"/>
+                                    <constraint firstAttribute="bottom" secondItem="nBd-XA-3MA" secondAttribute="bottom" id="Dmf-wp-Tcn"/>
+                                    <constraint firstItem="nBd-XA-3MA" firstAttribute="top" secondItem="rkQ-fh-7GL" secondAttribute="top" id="WIW-Eh-6Mb"/>
+                                    <constraint firstItem="nBd-XA-3MA" firstAttribute="leading" secondItem="rkQ-fh-7GL" secondAttribute="leading" id="XA6-kk-sEO"/>
+                                    <constraint firstItem="iPQ-0q-5V4" firstAttribute="leading" secondItem="rkQ-fh-7GL" secondAttribute="leading" id="cAg-wY-GuJ"/>
+                                    <constraint firstItem="iPQ-0q-5V4" firstAttribute="top" secondItem="rkQ-fh-7GL" secondAttribute="top" id="dTe-ib-zqT"/>
+                                    <constraint firstAttribute="trailing" secondItem="nBd-XA-3MA" secondAttribute="trailing" id="h4h-YE-zs4"/>
+                                    <constraint firstAttribute="bottom" secondItem="iPQ-0q-5V4" secondAttribute="bottom" id="vWe-KS-Pup"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="rkQ-fh-7GL" firstAttribute="centerY" secondItem="1PG-hY-9TW" secondAttribute="centerY" id="69N-3O-p9i"/>
+                            <constraint firstAttribute="trailing" secondItem="u6r-3f-yVt" secondAttribute="trailing" constant="16" id="JJw-dI-0gU"/>
+                            <constraint firstItem="u6r-3f-yVt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3eb-Fk-4hf" secondAttribute="trailing" constant="16" id="YOz-9x-YLt"/>
+                            <constraint firstItem="3eb-Fk-4hf" firstAttribute="centerY" secondItem="1PG-hY-9TW" secondAttribute="centerY" id="k8Y-Wf-nK6"/>
+                            <constraint firstItem="3eb-Fk-4hf" firstAttribute="leading" secondItem="1PG-hY-9TW" secondAttribute="leading" constant="50" id="qZM-CM-EDB"/>
+                            <constraint firstAttribute="height" constant="65" id="tFT-zY-vFc"/>
+                            <constraint firstItem="u6r-3f-yVt" firstAttribute="centerY" secondItem="1PG-hY-9TW" secondAttribute="centerY" id="tMa-TY-7mW"/>
+                            <constraint firstItem="rkQ-fh-7GL" firstAttribute="leading" secondItem="1PG-hY-9TW" secondAttribute="leading" constant="15" id="yr1-Dr-T5b"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNy-ir-vh6">
+                        <rect key="frame" x="0.0" y="65" width="337" height="173"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一，学会控制跑量。关注身体，跑到觉得落地变重，或是膝盖感觉有压力时马上停下来。 第二，调整跑步姿势。 第三，体能训练。也就是我们常说的辅助核心力量训练，特别强化膝盖周围肌肉，臀部后侧肌肉，推荐深蹲，靠墙蹲，平板支撑，俯卧撑等这些训练。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMT-mf-ecu">
+                                <rect key="frame" x="16" y="16" width="305" height="141"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.64313725490196072" green="0.6470588235294118" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="mMT-mf-ecu" firstAttribute="top" secondItem="RNy-ir-vh6" secondAttribute="top" constant="16" id="B9x-an-Say"/>
+                            <constraint firstAttribute="trailing" secondItem="mMT-mf-ecu" secondAttribute="trailing" constant="16" id="K3V-in-Yud"/>
+                            <constraint firstAttribute="bottom" secondItem="mMT-mf-ecu" secondAttribute="bottom" constant="16" id="PJO-qc-be4"/>
+                            <constraint firstItem="mMT-mf-ecu" firstAttribute="leading" secondItem="RNy-ir-vh6" secondAttribute="leading" constant="16" id="dKT-Iw-e3N"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="RNy-ir-vh6" secondAttribute="bottom" id="0Fn-Tu-QVb"/>
+                    <constraint firstItem="1PG-hY-9TW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="22x-ik-9qz"/>
+                    <constraint firstItem="RNy-ir-vh6" firstAttribute="top" secondItem="1PG-hY-9TW" secondAttribute="bottom" id="9se-wk-J2u"/>
+                    <constraint firstAttribute="trailing" secondItem="RNy-ir-vh6" secondAttribute="trailing" id="DWK-gu-axX"/>
+                    <constraint firstItem="1PG-hY-9TW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Gsh-3J-BVT"/>
+                    <constraint firstAttribute="trailing" secondItem="1PG-hY-9TW" secondAttribute="trailing" id="qZz-lg-hbB"/>
+                    <constraint firstItem="RNy-ir-vh6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="raD-SS-4o4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+            <connections>
+                <outlet property="contentLabel" destination="mMT-mf-ecu" id="MFN-8x-Qgl"/>
+                <outlet property="displayView" destination="RNy-ir-vh6" id="xVc-i8-goV"/>
+                <outlet property="indexLab" destination="iPQ-0q-5V4" id="ODw-6i-RJE"/>
+                <outlet property="statusImgv" destination="u6r-3f-yVt" id="hcW-rr-IdJ"/>
+                <outlet property="titleLabel" destination="3eb-Fk-4hf" id="0Qa-cz-UV8"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="160.04464285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="show_down" width="10" height="6.5"/>
+        <image name="show_tip" width="22" height="20"/>
+    </resources>
+</document>
